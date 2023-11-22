@@ -1,0 +1,17 @@
+.introdiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ .introdiv div{
+    height: auto;
+    width: 40%;
+} 
+
+.R2 img {
+    width: 70%;
+}
