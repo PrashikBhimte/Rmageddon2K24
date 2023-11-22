@@ -1,0 +1,7 @@
+body {
+    overflow-x: hidden;
+    background-image: url("./Components/Images/image5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
