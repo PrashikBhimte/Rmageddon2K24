@@ -1,7 +1,7 @@
 import React from 'react';
 import "./hero.css";
-import image from "../Images/carbon.png";
-
+import image from "../Images/codeimg.png";
+ 
 export default function HeroPage() {
   return (
     <div className='heropage'>

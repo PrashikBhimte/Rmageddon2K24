@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    border-bottom: 3px solid black;
     justify-content: space-evenly;
 }
 
@@ -47,5 +48,3 @@
     margin-top: 3px;
     margin-left: -50px;
 }
-
-.all {}
