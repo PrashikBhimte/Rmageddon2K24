@@ -16,7 +16,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     padding: 20px;
     border-radius: 25px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(2px);
 }
 
 .heroleft h1 {

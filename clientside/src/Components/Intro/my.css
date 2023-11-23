@@ -16,6 +16,14 @@
     width: 40%;
 } 
 
+.R1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+}
+
 .R2 img {
  width: 70%;
 }
