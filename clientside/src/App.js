@@ -1,10 +1,10 @@
 import './App.css';
-import Background from './Components/Background.jsx';
+import HeroPage from './Components/heropage/HeroPage';
 
 function App() {
   return (
     <div className="App">
-    <Background />
+      <HeroPage />
     </div>
   );
 }
