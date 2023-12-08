@@ -1,43 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./HeroPage.css";
+import background1 from "../../images/Slice 2.png";
+import background2 from "../../images/Section 1.png";
+import Navbar from '../navbar/navbar';
+import Heroinfo from '../heroinfo/heroinfo';
+import Herobottom from '../herobottom/herobottom';
 
 export default function HeroPage() {
+
+    const [ windowWidth, setWindowWidth ] = useState(window.innerWidth);
+    const [ srcImg, setSrcImg ] = useState(background1);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (windowWidth < 550) {
+            setSrcImg(background2);
+        }
+        else {
+            setSrcImg(background1);
+        }
+    }, [windowWidth])
+ 
     return (
-        <div className='background'>
-            <nav>
-                <ul>
-                    <li><a href='#abc'>Games</a></li>
-                    <li><a href='#abc'>Organisers</a></li>
-                    <li><a href='#abc'>Conatct us</a></li>
-                </ul>
-            </nav>
-            <div className='heromain'>
-                <div className='heroinfo'>
-                    <p>Rmageddon</p>
-                    <p>Become an early Adopter</p>
-                    <p>The mission of Sci-Fi World is to teach and
-                        inspire people, Species of all ages with an
-                        uplifting vision of the future.
-                        We aren't just any artificial brain—it actually
-                        functions like the human brain.
-                    </p>
-                </div>
-                <button>Explore Now</button>
-            </div>
-            <div className='back2'>
-                <div className='rnxginfo'>
-                    <p>RNXG</p>
-                    <p>Takes place 70 years after modern 
-                    civilization has been destroyed. Joel, 
-                    a hardened survivor, is hired to smuggle
-                    Ellie, a 14-year-old girl, out of an 
-                    oppressive quarantine zone. 
-                    </p>
-                    <div>
-                        <button>Explore</button>
-                        <div className='blackbar'></div>
-                    </div>
-                </div>
+        <div className='heropagemain'>
+            <img src={srcImg} alt='background' id='background' />
+            <div className='heropage'>
+                <Navbar />
+                <Heroinfo />
+                <Herobottom />
             </div>
         </div>
     )
