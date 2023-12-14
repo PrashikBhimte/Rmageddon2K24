@@ -1,0 +1,212 @@
+.parentdiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#background{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: -999;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.maindiv{
+    width: 75%;
+    height: 95%;
+     
+}
+
+.card1{
+    position: absolute;
+   
+    height: 320px;
+    width: 1100px;   
+    top: 13rem;
+    left:25rem;
+    background-image: linear-gradient(110deg,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 50%),url('./night.jpg');
+    background-size: 1250px 100%;
+}
+.text{
+    position: absolute;
+    width: 400px;
+    height: 170px;
+   
+    right: 2rem;
+    padding-left: 1rem;
+    right: 0;
+    text-align: center;
+}
+h2{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+.smallcards{
+    display: flex;
+   
+    width: 85rem;
+    height: 18rem;
+      position: absolute;
+    bottom: 3.2rem;
+    left: 19rem;
+   
+    gap: 1.5rem;
+   
+}
+.card{
+    position: relative;
+    background: #333;
+    /* border: 2px solid white; */
+    height: 13rem;
+   
+    
+    flex: 1;
+} 
+.card2{
+    position: relative;
+    width: 450px;
+    height:300px;
+    flex: 1;
+    border: 2px solid cyan;
+    color:black;
+    text-align: center;
+    background-color: #6d6875;
+}
+.card3{
+    position: relative;
+    width: 450px;
+    height:300px;
+    flex: 1;
+    border: 2px solid cyan;
+    color:black;
+    background-color: #6d6875;
+    text-align: center;
+}
+.card4{
+    position: relative;
+    width: 450px;
+    height:300px;
+    flex: 1;
+    border: 2px solid cyan;
+    color:black;
+    background-color: #6d6875;
+    text-align: center;
+}
+.card5{
+    position: relative;
+    width: 450px;
+    height:300px;
+    flex: 1;
+    border: 2px solid cyan;
+    color:black;
+    background-color: #6d6875;
+    text-align: center;
+}
+hr{
+    width: 90%;
+    margin-top: -12px;
+}
+img{
+    position: absolute;
+    width: 190px;
+    height: 170px;
+    left: 3.8rem;
+}
+h4{
+    position: absolute;
+    bottom: 1.6rem;
+    left: 3.5rem;
+}
+.part1{
+    position: absolute;
+    width: 305px;
+    height: 300px;
+   
+    left: 0.3rem;
+    border: 2px solid cyan;
+    top: 0.2rem;
+}
+.card2:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+.card3:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+.card4:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+.card5:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+
+.part2{
+    position: absolute;
+    width: 305px;
+    height: 300px;
+   
+    left: 0.3rem;
+    border: 2px solid cyan;
+    top: 0.2rem;
+}
+.part3{
+    position: absolute;
+    width: 305px;
+    height: 300px;
+   
+    left: 0.3rem;
+    border: 2px solid cyan;
+    top: 0.2rem;
+}
+.part4{
+    position: absolute;
+    width: 305px;
+    height: 300px;
+   
+    left: 0.3rem;
+    border: 2px solid cyan;
+    top: 0.2rem;
+}
+.button3{
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+    bottom: 0.2rem;
+    height: 2rem; 
+    width: 50%;
+}
+.button4{
+    position: absolute;
+    bottom: 0.2rem;
+   
+    right: 0.5rem;
+    left: 9.3rem;
+    height: 2rem;
+}
+button{
+    border-style: none;
+}
+.button1{
+    position: absolute;
+    top: 11rem;
+    right: 12rem;
+    height: 1.5rem;
+    width: 5.5rem;
+}
+.button2{
+    position: absolute;
+    top: 15rem;
+    right:12rem ;
+    height:1.5rem ;
+    width:5.5rem ;
+}

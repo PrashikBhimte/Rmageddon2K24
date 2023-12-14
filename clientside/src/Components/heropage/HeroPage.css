@@ -33,12 +33,17 @@
 
 @media (max-width : 550px) {
     #background {
+        display: none;
+    }
+
+    .heropagemain {
         height: auto;
     }
-    .heropagemain {
-        height: 150vh;
-    }
+
     .heropage {
-        height: 100%;
+        height: auto ;
+        background-image: url("../../images/Section\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import "./HeroPage.css";
 import background1 from "../../images/Slice 2.png";
 import background2 from "../../images/Section 1.png";
 import Navbar from '../navbar/navbar';
 import Heroinfo from '../heroinfo/heroinfo';
 import Herobottom from '../herobottom/herobottom';
+import { useState, useEffect } from 'react';
 
 export default function HeroPage() {
 
@@ -28,10 +29,13 @@ export default function HeroPage() {
         else {
             setSrcImg(background1);
         }
-    }, [windowWidth])
+    }, [windowWidth]);
  
     return (
         <div className='heropagemain'>
+            <div className='gradient' id='gradient1'></div>
+            <div className='gradient' id='gradient2'></div>
+            <div className='gradient' id='gradient3'></div>
             <img src={srcImg} alt='background' id='background' />
             <div className='heropage'>
                 <Navbar />

@@ -1,14 +1,17 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+// import Card from './Components/cards/Card';
+// import Footer from './Components/footer/footer';
 import HeroPage from './Components/heropage/HeroPage';
+import Indform from './Components/indform/indform';
+// import Spons from './Components/spons/Spons';
 
 function App() {
   return (
-    <div className="App">
-      <div className='gradient' id='gradient1'></div>
-      <div className='gradient' id='gradient2'></div>
-      <div className='gradient' id='gradient3'></div>
-      <HeroPage />
-    </div>
+    <Routes>
+      <Route path='/' element={ <HeroPage /> }></Route>
+      <Route path='/register' element={ <Indform /> }></Route>
+    </Routes>
   );
 }
 
