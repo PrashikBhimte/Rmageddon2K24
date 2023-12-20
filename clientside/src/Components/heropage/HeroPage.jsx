@@ -9,8 +9,8 @@ import { useState, useEffect } from 'react';
 
 export default function HeroPage() {
 
-    const [ windowWidth, setWindowWidth ] = useState(window.innerWidth);
-    const [ srcImg, setSrcImg ] = useState(background1);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [srcImg, setSrcImg] = useState(background1);
 
     useEffect(() => {
         const handleResize = () => {
@@ -30,17 +30,19 @@ export default function HeroPage() {
             setSrcImg(background1);
         }
     }, [windowWidth]);
- 
+
     return (
-        <div className='heropagemain'>
-            <div className='gradient' id='gradient1'></div>
-            <div className='gradient' id='gradient2'></div>
-            <div className='gradient' id='gradient3'></div>
-            <img src={srcImg} alt='background' id='background' />
-            <div className='heropage'>
-                <Navbar />
-                <Heroinfo />
-                <Herobottom />
+        <div className='main'>
+            <div className='heropagemain'>
+                <div className='gradient' id='gradient1'></div>
+                <div className='gradient' id='gradient2'></div>
+                <div className='gradient' id='gradient3'></div>
+                <img src={srcImg} alt='background' id='background' />
+                <div className='heropage'>
+                    <Navbar />
+                    <Heroinfo />
+                    <Herobottom />
+                </div>
             </div>
         </div>
     )

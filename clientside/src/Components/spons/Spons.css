@@ -8,7 +8,7 @@
 #background2 {
     width: 80%;
     height: 90%;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -199,5 +199,20 @@ h6{
         margin-top: 5px;
         font-size: 20px;
         
+    }
+}
+
+@media (max-width: 550px) {
+    #background2 {
+        display: none;
+    }
+    .Main {
+        height: auto;
+    }
+    .Box {
+        height: auto ;
+        background-image: url("../../images/Slice_1-removebg-preview.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
