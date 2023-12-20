@@ -5,12 +5,8 @@ import Mobackground from "../../images/Slice_1-removebg-preview.png"
 
 const Spons = () => {
 
-
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [srcImg, setSrcImg] = useState(background);
-
-
-
 
   useEffect(() => {
     const handleResize = () => {
@@ -31,27 +27,23 @@ const Spons = () => {
   }, [windowWidth]);
 
   return (
-      <div className="main">
-        <div className="Main">
-          <img src={srcImg} alt="background2" id="background2"></img>
-          <div className="Box">
-            <div className="name">
-              <p>Rmageddon</p>
-            </div>
-            <div className="Content">
-              <p id="Content">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-                laborum modi deleniti. Excepturi odio ipsam enim, explicabo dolore
-                perspiciatis nam natus voluptates sequi harum dolorem nisi,
-                voluptatibus itaque cum omnis alias architecto officia distinctio
-                neque cupiditate. Accusamus ex nam eum!
-              </p>
-            </div>
-
-            <div className="Spons">
-              <p id="Spons">Our Sponsers</p>
-            </div>
-            <div className="Cards">
+    <div className="main">
+      <div className="Main">
+        <img src={srcImg} alt="background2" id="background2"></img>
+        <div className="Box">
+          <div className="rinfo">
+            <p>Rmageddon</p>
+            <p id="Content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+              laborum modi deleniti. Excepturi odio ipsam enim, explicabo dolore
+              perspiciatis nam natus voluptates sequi harum dolorem nisi,
+              voluptatibus itaque cum omnis alias architecto officia distinctio
+              neque cupiditate. Accusamus ex nam eum!
+            </p>
+          </div>
+          <div className="sponinfo">
+            <p>Our Sponsers</p>
+            <div className="Bada_Cards">
               <div className="Chota_card">
                 <div className="Child_Box"></div>
                 <h6>Sponser 1</h6>
@@ -72,11 +64,11 @@ const Spons = () => {
                 <div className="Child_Box"></div>
                 <h6>Sponser 5</h6>
               </div>
-
             </div>
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

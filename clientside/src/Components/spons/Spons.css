@@ -1,13 +1,14 @@
-.Main{
+.Main {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #background2 {
     width: 80%;
-    height: 90%;
+    height: 100%;
     position: absolute;
     left: 0;
     right: 0;
@@ -16,63 +17,60 @@
     margin: auto;
     z-index: -9999;
 }
+
 .Box{
     width: 75%;
-    height: 85%;
+    height: 90%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-.Box p{
-    margin-left: 64px;
-    width: 70%;
-    margin-bottom: 10px;
+
+.rinfo {
+    padding: 50px;
+}
+
+.rinfo p:first-of-type {
     font-size: 50px;
     font-family: wallpoet;
+}
 
-}
-.Content{
-    margin-left: 70px;
-    margin-top: 0px;
-    display: flex;
+#Content{
     width: 50%;
-    height: 30%;
-    margin-bottom: 90px;
-}
-.Content #Content{
-    margin-left: 0px;
-    width: 100%;
     font-size: 14px;
     color: #bababa;
     font-family: 'JetBrains Mono', monospace;
 }
-.Spons{
-    margin-left: 70px;
-    margin-top: 100px;
-    width: 50%;
-}
-.Spons #Spons{
-    margin-top: 20px;
-    margin-left: 0px;
-    width: 80%;
-    margin-bottom: 0px;
-    font-size: 30px;
-    font-family: wallpoet;
 
-}
-.Cards{
-    
-    
+.sponinfo {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 50px;
-    margin-left: 70px;
+    align-items: center;
+}
+
+.sponinfo p {
+    width: 90%;
+    font-size: 30px;
+    font-family: Wallpoet;
+}
+
+.Bada_Cards{
+    width : 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    height: 130px;
+    margin-bottom: 30px;
 }
-.Chota_card{
-    
+
+.Chota_card{    
+    padding: 10px;
     display: flex;
     height: 100px;
     width: 130px;
@@ -80,125 +78,37 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
+
 .Child_Box{
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,22,36,1) 35%, rgba(15,74,161,0.6111694677871149) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,22,36,1) 35%, rgba(15,74,161,0.6111694677871149) 100%);
     clip-path: polygon(0 1%, 74% 0, 100% 29%, 100% 100%, 25% 100%, 0 66%);
     width: 130px;
-    margin-bottom: 10px;
     height: 80px;
+    margin-bottom: 20px;
 }
+
 h6{
     margin: 0px;
     padding: 0px;
-    margin-left: 10px;
+    font-size: 15px;
+    color: #bababa;
     font-family: 'JetBrains Mono', monospace;
 }
 
-@media (max-width:900px) {
-    .Box p{
-        font-size: 40px;
-    }
-    .Spons #Spons{
-        font-size: 20px;
-        margin-top: 140px;
+@media ( max-width : 1200px ) {
+    #Content {
+        width: 70%;
     }
 }
 
-@media (max-width:700px) {
-    .Box p{
-        font-size: 30px;   
+@media ( max-width : 900px ) {
+    #Content {
+        width: 90%;
     }
-    .Spons #Spons{
-        margin-top: 150px;
-        
-    }
-    .Spons{
-        margin-left: 40px;
-    }
-}
-
-@media (max-width:650px){
-    .Box p{
-        font-size: 25px;   
-    }
-   
-    .Spons{
-        margin-left: 20px;
-    }
-    .Cards{
-        margin-left: 40px;
-        margin-top: 70px;
-    }
-}
-@media (max-width:570px){
-    #background {
-        height: auto;
-    }
-    .Cards {
-        height: auto ;
-    }
-    .Box p{
-        font-size: 30px;
-        /* margin-left: 40px; */
-        
-    }
-    .name{
-        /* margin-top: 20px; */
-        display: flex;
-        justify-content: center;
-       
-    }
-
-    .Content{
-        margin-left: 40px;
-        width: 80%;
-        height: 30%;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 0px;
-    }
-    .Spons #Spons{
-        margin-top: 0px;
+    .sponinfo p {
         font-size: 25px;
-        
-    }
-    .Cards{
-        margin-top: 30px ;
-        margin-left: 10px;
-    }
-    .Spons{
-
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 5px;
-       margin-left: 47px;
-    } 
-}
-@media (max-width:445px){
-    .Spons{
-
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 8px;
-       margin-left: 47px;
-    }
-    .Content #Content{
-        margin-top: 0px;
-    }
-    .Box p{
-        font-size: 25px;
-        /* margin-left: 40px; */
-        
-    }
-    .Spons #Spons{
-        margin-top: 5px;
-        font-size: 20px;
-        
     }
 }
 
@@ -214,5 +124,17 @@ h6{
         background-image: url("../../images/Slice_1-removebg-preview.png");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .rinfo p:first-of-type {
+        font-size: 40px;
+    }
+    .sponinfo p {
+        width: auto;
+    }
+}
+
+@media ( max-width : 450px ) {
+    .rinfo p:first-of-type {
+        font-size: 30px;
     }
 }
