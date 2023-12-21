@@ -22,13 +22,13 @@
     margin: 50px 0px;
     width: 75%;
     height: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
     /* background-image: url("../../images/Slice\ 2.png");
     background-repeat: no-repeat;
     background-size: cover; */
+}
+
+.relativecontent {
+    position: relative;
 }
 
 @media (max-width : 550px) {
