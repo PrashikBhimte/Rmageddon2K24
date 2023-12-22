@@ -1,0 +1,74 @@
+.notifications {
+    width: 100vw;
+    height: 100vh;
+}
+
+.notiDiv {
+    width: 75%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notins {
+    margin: 100px 0;
+    width: 90%;
+    height: 30%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.notinfo {
+    width: 70%;
+    height: 25%;
+    color: #bababa;
+    font-family: 'JetBrains Mono';
+}
+
+.message {
+    right: 0;
+    left: 0;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 15px 25px;
+}
+
+.message p:first-of-type {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-family: 'Wallpoet';
+}
+
+.message p:last-of-type {
+    font-size: 13px;
+    font-family: 'JetBrains Mono';
+    color: #bababa;
+}
+
+.mesBut {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mesBut button {
+    width: 150px;
+    height: 30px;
+    background-color: #95c5f4;
+    border: none;
+    clip-path: polygon(0 2%, 85% 1%, 100% 100%, 15% 100%);
+    color: #262626;
+    margin: auto 10px;
+}
