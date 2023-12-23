@@ -121,10 +121,13 @@ h6{
         height: auto;
     }
     .Box {
+        margin: 0;
+        width: 100%;
         height: auto ;
-        background-image: url("../../images/Slice_1-removebg-preview.png");
+        background-color: #111111;
+        /* background-image: url("../../images/Slice_1-removebg-preview.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%; */
     }
     .rinfo p:first-of-type {
         font-size: 40px;

@@ -50,6 +50,7 @@ export default function Notifications() {
             <div className='notifications'>
                 <img src={srcImg} alt='background' id='background' />
                 <div className='notiDiv'>
+                    <p className='notihead'>Notifications</p>
                     <div className='notins'>
                         {data.map((key) => { return <Message id={key.id} heading={key.heading} line={key.line} /> })}
                     </div>
@@ -66,31 +67,31 @@ const data = [
     {
         id: 1,
         heading: " hoih ihif hihciodhco ihi",
-        line: "sco hfih foihihri hihoihih oifhio f hoihgiofhoih ihoihohihoihoihifhfhrihfh  hfhuh uh uh ur uhuhfohfhfhoifh;hfhfohf;o",
-        info: " 1 iihfoi ehfoihoi fhwoih foihofhoihofhoihfohfoaiewhfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifhiefehfhefbsdjcjkbuew hei hfoeiwhfjbufjfewugofhewjfbdsfue h ihf ihefhewofwei oewhfjbc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
+        line: "sco hfih foihihri hihoihih oifhio f hoihgiofhoih ihoiho hihoiho ihifhfhri hfh  hfhuh uh uh ur uhuhfoh fhfhoi f h;hf h fohf;o",
+        info: " 1 iihfoi ehfoihoi fhwoih foihofh oihofhoi hfohfoaiew hfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifh iefe hfhe fbsd jcj kbuew hei hfoei whfjbufj fewugof hewjfbds fue h ihf ihe fhewofwei oewhfj bc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
     },
     {
         id: 2,
         heading: " hoih ihif hihciodhco ihi",
         line: "sco hfih foihihri hihoihih oifhio f hoihgiofhoih ihoihohihoihoihifhfhrihfh  hfhuh uh uh ur uhuhfohfhfhoifh;hfhfohf;o",
-        info: " 2 iihfoi ehfoihoi fhwoih foihofhoihofhoihfohfoaiewhfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifhiefehfhefbsdjcjkbuew hei hfoeiwhfjbufjfewugofhewjfbdsfue h ihf ihefhewofwei oewhfjbc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
+        info: " 2 iihfoi ehfoihoi fhwoih foihofh oihofhoi hfohfoaiew hfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifh iefe hfhe fbsd jcj kbuew hei hfoei whfjbufj fewugof hewjfbds fue h ihf ihe fhewofwei oewhfj bc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
     },
     {
         id: 3,
         heading: " hoih ihif hihciodhco ihi",
         line: "sco hfih foihihri hihoihih oifhio f hoihgiofhoih ihoihohihoihoihifhfhrihfh  hfhuh uh uh ur uhuhfohfhfhoifh;hfhfohf;o",
-        info: " 3 iihfoi ehfoihoi fhwoih foihofhoihofhoihfohfoaiewhfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifhiefehfhefbsdjcjkbuew hei hfoeiwhfjbufjfewugofhewjfbdsfue h ihf ihefhewofwei oewhfjbc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
+        info: " 3 iihfoi ehfoihoi fhwoih foihofh oihofhoi hfohfoaiew hfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifh iefe hfhe fbsd jcj kbuew hei hfoei whfjbufj fewugof hewjfbds fue h ihf ihe fhewofwei oewhfj bc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
     },
     {
         id: 4,
         heading: " hoih ihif hihciodhco ihi",
         line: "sco hfih foihihri hihoihih oifhio f hoihgiofhoih ihoihohihoihoihifhfhrihfh  hfhuh uh uh ur uhuhfohfhfhoifh;hfhfohf;o",
-        info: " 4 iihfoi ehfoihoi fhwoih foihofhoihofhoihfohfoaiewhfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifhiefehfhefbsdjcjkbuew hei hfoeiwhfjbufjfewugofhewjfbdsfue h ihf ihefhewofwei oewhfjbc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
+        info: " 4 iihfoi ehfoihoi fhwoih foihofh oihofhoi hfohfoaiew hfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifh iefe hfhe fbsd jcj kbuew hei hfoei whfjbufj fewugof hewjfbds fue h ihf ihe fhewofwei oewhfj bc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
     },
     {
         id: 5,
         heading: " hoih ihif hihciodhco ihi",
         line: "sco hfih foihihri hihoihih oifhio f hoihgiofhoih ihoihohihoihoihifhfhrihfh  hfhuh uh uh ur uhuhfohfhfhoifh;hfhfohf;o",
-        info: " 5 iihfoi ehfoihoi fhwoih foihofhoihofhoihfohfoaiewhfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifhiefehfhefbsdjcjkbuew hei hfoeiwhfjbufjfewugofhewjfbdsfue h ihf ihefhewofwei oewhfjbc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
+        info: " 5 iihfoi ehfoihoi fhwoih foihofh oihofhoi hfohfoaiew hfohf  f fewi fhef e i hiewhi hifhew ifewii ehi fi heifh iefe hfhe fbsd jcj kbuew hei hfoei whfjbufj fewugof hewjfbds fue h ihf ihe fhewofwei oewhfj bc8ew  efeoihfd fedsf efjf ewoihe ewih oeoi ifihfchiche wie iedifyiyf hihuefugf f  pihcihc fifewihfbhc eih whebcjcbjbobpi  hiphfp hpichccbpi ef 9pwy feihcpie wf;ahw;fyhodfc h ich ci h  gfaufggcp8w 8fffwe;f ;8o"
     }
 ]

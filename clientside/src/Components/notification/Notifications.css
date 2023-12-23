@@ -33,6 +33,13 @@
     font-family: 'JetBrains Mono';
 }
 
+.notihead {
+    width: 90%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Wallpoet';
+}
+
 .message {
     right: 0;
     left: 0;
@@ -71,4 +78,31 @@
     clip-path: polygon(0 2%, 85% 1%, 100% 100%, 15% 100%);
     color: #262626;
     margin: auto 10px;
+}
+
+@media (max-width : 550px) {
+    .message {
+        width: 80%;
+    }
+    .notins {
+        width: 80vw;
+        height: 35vh;
+    }
+    .notihead {
+        font-size: 35px;
+        text-align: center;
+    }
+    .notifications {
+        height: auto;
+    }
+    .notiDiv {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        height: auto ;
+        background-color: #111111;
+        /* background-image: url("../../images/Slice_1-removebg-preview.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; */
+    }
 }
