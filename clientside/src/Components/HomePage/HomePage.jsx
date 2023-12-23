@@ -2,7 +2,9 @@ import React from 'react';
 import HeroPage from '../heropage/HeroPage';
 import Spons from '../spons/Spons';
 import Footer from '../footer/footer';
+
 import Notifications from '../notification/Notifications';
+import Info from '../Steps/Info';
 
 export default function HomePage() {
   return (
@@ -10,6 +12,7 @@ export default function HomePage() {
         <HeroPage />
         <Spons />
         <Notifications />
+        <Info/>
         <Footer />
     </div>
   )
