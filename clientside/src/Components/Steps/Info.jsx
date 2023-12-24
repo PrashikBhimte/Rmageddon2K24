@@ -26,10 +26,10 @@ function Info() {
   return (
     <div className="main">
       <div className="parentdiv">
-        <img src={srcImg} id="background" />
+        <img src={srcImg} alt="background" id="background" />
         <div className="maindiv">
           <div className="heading">
-            <h2>Steps to confirm your seat in RMAGEDDON24</h2>
+            <p>Steps to confirm your seat in RMAGEDDON24</p>
           </div>
           <div className="subheading">
             <ul>
