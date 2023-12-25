@@ -25,7 +25,7 @@ function Info() {
   }, [windowWidth]);
   return (
     <div className="main">
-      <div className="parentdiv">
+      <div id="Steps" className="parentdiv">
         <img src={srcImg} alt="background" id="background" />
         <div className="maindiv">
           <div className="heading">

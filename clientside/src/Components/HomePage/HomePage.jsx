@@ -10,9 +10,9 @@ export default function HomePage() {
   return (
     <div>
         <HeroPage />
-        <Spons />
-        <Notifications />
         <Info/>
+        <Notifications />
+        <Spons />
         <Footer />
     </div>
   )
