@@ -3,9 +3,16 @@
     width: 100vw;
     height: 100vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.loader-circle {
+.loader video {
+    width: 30%;
+}
+
+/* .loader-circle {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -30,4 +37,4 @@
 
 .loader-circle img {
     width: 80%;
-}
+} */
