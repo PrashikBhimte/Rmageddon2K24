@@ -1,0 +1,33 @@
+.loader {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.loader-circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: loading linear infinite 5s;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-circle img {
+    width: 80%;
+}
