@@ -4,6 +4,7 @@ import Spons from '../spons/Spons';
 import Footer from '../footer/footer';
 import Notifications from '../notification/Notifications';
 import Info from '../Steps/Info';
+import Game from '../gamesection/Game';
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Info />
       <Notifications />
       <Spons />
+      <Game />
       <Footer />
     </div>
   )
