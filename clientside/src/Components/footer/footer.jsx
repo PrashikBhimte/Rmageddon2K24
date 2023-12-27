@@ -4,10 +4,10 @@ import "./footer.css";
 export default function Footer() {
   return (
     <footer id='footer'>
-        <div class="row">
-            <div class="col">
+        <div class="footer-row">
+            <div class="footer-col">
                 {/* <img src="/assets/logo.png" class="logo1" width="50" /> */}
-                <a href="https://www.rnxg.co.in/" class="logo1">RNXG</a>
+                <a href="https://www.rnxg.co.in/" class="footer-logo">RNXG</a>
                 <p>
                     RNXG that is Robotics for Next Generation provides the best platform to work on different problem statements and to create best solutions for them.
                 </p>
