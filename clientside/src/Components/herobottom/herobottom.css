@@ -29,6 +29,7 @@
 
 .rnxginfo p:last-of-type {
     width: 80%;
+    max-width: 500px;
     color: #bababa;
     font-size: 10px;
     font-family: 'JetBrains Mono', monospace;
@@ -72,13 +73,13 @@
     align-items: center;
 }
 
-@media (max-width : 550px) {
+@media (max-width : 1200px) {
     .herobottom {
         position: relative;
         height: auto;
     }
     .rnxginfo {
-        width: 90%;
+        width: 100%;
         padding: 50px 0px;
         display: flex;
         flex-direction: column;

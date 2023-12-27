@@ -8,11 +8,14 @@ import Info from '../Steps/Info';
 export default function HomePage() {
   return (
     <div>
-        <HeroPage />
-        <Info/>
-        <Notifications />
-        <Spons />
-        <Footer />
+      <div className='gradient' id='gradient1'></div>
+      <div className='gradient' id='gradient2'></div>
+      <div className='gradient' id='gradient3'></div>
+      <HeroPage />
+      <Info />
+      <Notifications />
+      <Spons />
+      <Footer />
     </div>
   )
 }

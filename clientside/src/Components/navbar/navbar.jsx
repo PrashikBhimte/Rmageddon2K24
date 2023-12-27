@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import logo from "../../images/logo.png";
+import { HiMenuAlt1 } from "react-icons/hi";
 
 export default function Navbar() {
 
@@ -25,7 +26,7 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    if (windowWidth > 550) {
+    if (windowWidth > 1200) {
       document.getElementById("navbar").style.display = "flex";
     }
     else {
@@ -37,14 +38,14 @@ export default function Navbar() {
     <>
       <div className='mobile'>
         <img src={logo} alt='logo' />
-        <button onClick={handleClick}>Menu</button>
+        <button onClick={handleClick}><HiMenuAlt1 /></button>
       </div>
       <nav id='navbar'>
         <ul>
           <li><a href='#abc'>Games</a></li>
-          <li><a href='#abc'>Organiser</a></li>
-          <li><a href='#abc'>Contact Us</a></li>
-          <li><a href='#ds' onClick={handleClose}>Close</a></li>
+          <li><a href='#organisers'>Organiser</a></li>
+          <li><a href='#footer'>Contact Us</a></li>
+          <li><a href='#abc' onClick={handleClose}>Close</a></li>
         </ul>
         <div>
           <button>Register</button>

@@ -1,35 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Spons.css";
 import background from "../../images/back1-removebg.png";
-import Mobackground from "../../images/Slice_1-removebg-preview.png"
 
 const Spons = () => {
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [srcImg, setSrcImg] = useState(background);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    }
-  }, []);
-  useEffect(() => {
-    if (windowWidth < 560) {
-      setSrcImg(Mobackground);
-    }
-    else {
-      setSrcImg(background);
-    }
-  }, [windowWidth]);
-
   return (
     <div className="main">
-      <div className="Main">
-        <img src={srcImg} alt="background2" id="background2"></img>
+      <div id="organisers" className="Main">
+        <img src={background} alt="background2" id="background2"></img>
         <div className="Box">
           <div className="rinfo">
             <p>Rmageddon</p>

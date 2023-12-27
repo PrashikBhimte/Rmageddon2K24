@@ -29,7 +29,7 @@ function Info() {
         <img src={srcImg} alt="background" id="background" />
         <div className="maindiv">
           <div className="heading">
-            <p>Steps to confirm your seat in RMAGEDDON24</p>
+            <p>Steps to confirm your seat in RMAGEDDON 24</p>
           </div>
           <div className="subheading">
             <ul>

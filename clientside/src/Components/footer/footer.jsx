@@ -3,7 +3,7 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id='footer'>
         <div class="row">
             <div class="col">
                 {/* <img src="/assets/logo.png" class="logo1" width="50" /> */}
