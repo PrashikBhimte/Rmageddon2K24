@@ -5,7 +5,7 @@ import Image from '../../images/back1-removebg.png';
 const Unlock = () => {
     return (
         <div className='main'>
-            <div className='unlock-parentdiv'>
+            <div id='unlock' className='unlock-parentdiv'>
                 <img alt='background' src={Image} id='background' />
                 <div className='unlock-maindiv'>
                     <p className='unlock-text'>Unlock Your Potential<br />through Rmageddon <br />After Participating</p>

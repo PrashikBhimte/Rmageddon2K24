@@ -15,10 +15,10 @@ export default function Herobottom() {
             Learning, Deep Learning, Embedded Systems, IoT, VLSI,
             Robotics, and other emerging technologies are explored
             in RNXG.</p>
-            <button>Explore</button>
+            <a href='https://www.rnxg.co.in/'><button>Explore</button></a>
         </div>
         <div className='clock' >
-            <p>Days left</p>
+            {/* <p>Days left</p> */}
         </div>
         <div className='gameinfo' >
             <p><span>4+</span> <span>Games</span></p>

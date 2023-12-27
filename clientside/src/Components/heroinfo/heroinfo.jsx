@@ -14,7 +14,7 @@ export default function Heroinfo() {
             source accordingly. Here's an example using 
             vanilla JavaScript.
         </p>
-        <button>Explore Now</button>
+        <a href='#unlock'><button>Explore Now</button></a>
     </div>
   )
 }

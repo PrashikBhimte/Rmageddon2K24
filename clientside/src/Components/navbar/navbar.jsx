@@ -42,13 +42,13 @@ export default function Navbar() {
       </div>
       <nav id='navbar'>
         <ul>
-          <li><a href='#abc'>Games</a></li>
+          <li><a href='#games'>Games</a></li>
           <li><a href='#organisers'>Organiser</a></li>
           <li><a href='#footer'>Contact Us</a></li>
           <li><a href='#abc' onClick={handleClose}>Close</a></li>
         </ul>
         <div>
-          <button>Register</button>
+          <a href='registre'><button>Register</button></a>
           <div className='circle' id='circle1'></div>
           <div className='circle' id='circle2'></div>
         </div>

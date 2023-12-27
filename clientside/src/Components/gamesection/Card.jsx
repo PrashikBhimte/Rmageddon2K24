@@ -44,7 +44,7 @@ function Card(){
         },
     ]
     return (
-        <div className="main">
+        <div id="games" className="main">
             <Game slides={slides} />
         </div>
     )
