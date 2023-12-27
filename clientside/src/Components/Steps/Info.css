@@ -5,18 +5,7 @@
     justify-content: center;
     align-items: center;
 }
-#background{
-    width: 80%;
-    height: 100%;
-    position: absolute;
-    z-index: -999;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-   
-}
+
 .maindiv{
     width: 75%;
     height: 95%;

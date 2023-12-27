@@ -4,7 +4,8 @@ import Spons from '../spons/Spons';
 import Footer from '../footer/footer';
 import Notifications from '../notification/Notifications';
 import Info from '../Steps/Info';
-import Game from '../gamesection/Game';
+import Card from '../gamesection/Card';
+import Unlock from '../unstop/Unlock';
 
 export default function HomePage() {
   return (
@@ -13,10 +14,11 @@ export default function HomePage() {
       <div className='gradient' id='gradient2'></div>
       <div className='gradient' id='gradient3'></div>
       <HeroPage />
+      <Unlock />
       <Info />
       <Notifications />
       <Spons />
-      <Game />
+      <Card />
       <Footer />
     </div>
   )

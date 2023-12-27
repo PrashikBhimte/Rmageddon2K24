@@ -1,32 +1,11 @@
-import {React,useEffect,useState} from 'react'; 
+import { React, useState } from 'react'; 
 import './Game.css';
-import Image from './back1-removebg.png';
-import Img from './background2.png';
+import Image from '../../images/back1-removebg.png';
+import { GrFormNext } from "react-icons/gr";
+import { GrFormPrevious } from "react-icons/gr";
 
 function Game({slides}){
-    const [ windowWidth, setWindowWidth ] = useState(window.innerWidth);
-    const [ srcImg, setSrcImg ] = useState(Image);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setWindowWidth(window.innerWidth);
-        };
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        }
-    }, []);
-
-    useEffect(() => {
-        if (windowWidth < 550) {
-            setSrcImg(Img);
-          
-        }
-        else {
-            setSrcImg(Image);
-        }
-    }, [windowWidth]);
-    let count=0;
+    // let count=0;
     const [currentslide,setcurrentslide]=useState(0);
     const [currentcontent,setcurrentcontent]=useState(0);
     const [currentheading,setcurrentheading]=useState(0);
@@ -45,37 +24,22 @@ function Game({slides}){
         setcurrentheading(move);
     }
     return (
-        <div className='parentdiv'>
-          <img src={srcImg} id='background'/>
-          <div className='maindiv'>
-            <h1 className='gameheading'>The Games</h1>
-           <div className='images'>
-              <img src={slides[currentslide].url} className='image'/>
-              {/* <div className='buttons'> */}
-              <button className='btn btn1' onClick={prevslide}>PREV</button>
-              <button className='btn btn2' onClick={nextslide}>NEXT</button>
-              {/* </div> */}
+        <div className='games-parentdiv'>
+          <img alt='background' src={Image} id='background'/>
+          <div className='games-maindiv'>
+            <p className='gameheading'>The Games</p>
+           <div className='games-images'>
+              <button className='btn' onClick={prevslide}><GrFormPrevious /></button>
+              <img alt='anImage' src={slides[currentslide].url} className='games-image'/>
+              <button className='btn' onClick={nextslide}><GrFormNext /></button>
            </div>
-            {/* <div className='buttons'>
-              <button className='btn btn1' onClick={prevslide}>PREV</button>
-              <button className='btn btn2' onClick={nextslide}>NEXT</button>
-            </div> */}
-            <div className='bottom'>
-              <div className='heading'>
-                <h2>{slides[currentheading].title}</h2>
+            <div className='games-bottom'>
+              <div className='games-heading'>
+                <p>{slides[currentheading].title}</p>
               </div>
-              <div className='content'>
+              <div className='games-content'>
                 <p>{slides[currentcontent].content}</p>
               </div>
-           </div>
-           <div className='line-dot'>
-             <div className='line'></div>
-           
-             <div className='dot'></div>
-           </div>
-           <div className='line-dot1'>
-             <div className='line1'></div>
-             <div className='dot1'></div>
            </div>
           </div>
         </div>

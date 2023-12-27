@@ -44,7 +44,7 @@ function Card(){
         },
     ]
     return (
-        <div>
+        <div className="main">
             <Game slides={slides} />
         </div>
     )
