@@ -17,7 +17,7 @@ function Info() {
               <li className="lis">
                 <p>Filling Up the Form : </p>
                 <p>
-                Please visit the Register button given below 
+                Please visit the Register button given above 
                 which will redirect you to UNSTOP. On visiting 
                 UNSTOP you should fill all the required details 
                 with accurate information before the registration 

@@ -2,6 +2,7 @@ import React from 'react';
 import "./herobottom.css";
 import useSound from 'use-sound';
 import sound from "../../sounds/click.mp3";
+import Timer from '../timer/timer';
 
 export default function Herobottom() {
 
@@ -21,9 +22,10 @@ export default function Herobottom() {
             <a href='https://www.rnxg.co.in/'><button onClick={play}>Explore</button></a>
         </div>
         <div className='clock' >
-            {/* <p>Days left</p> */}
+            <p>Days left</p>
+            <Timer />
         </div>
-        <div className='gameinfo' >
+        <div className='gameinfo' > 
             <p><span>4+</span> <span>Games</span></p>
             <p><span>4+</span> <span>Themes</span></p>
             <p><span>25K+</span> <span>Cash Prize</span></p>

@@ -52,6 +52,9 @@
     font-family: 'Gugi';
     font-size: 20px;
     background: linear-gradient(291deg, #121212 0%, #404040 101.05%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .gameinfo {
