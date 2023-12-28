@@ -7,12 +7,12 @@ export default function Heroinfo() {
         <p id='heading'>Rmageddon</p>
         <p id='tagline'>Become an Early Adapter</p>
         <p id='information'>
-            If you want to dynamically change the image
-            source based on the screen size using JavaScript,
-            you can use media queries in JavaScript to 
-            determine the screen size and update the image 
-            source accordingly. Here's an example using 
-            vanilla JavaScript.
+        Unleash the full potential of your robotic
+        creations and showcase your skills to the 
+        elite in the field of robotics. Compete for 
+        recognition and prizes at Rmageddon and be 
+        a part of the most exciting robotics event
+        of the year!
         </p>
         <a href='#unlock'><button>Explore Now</button></a>
     </div>

@@ -22,6 +22,10 @@
     font-size: 35px;
 }
 
+.unlock-content {
+    width: 80%;
+}
+
 .unlock-content li {
     margin: 15px 0px;
     color: #bababa;

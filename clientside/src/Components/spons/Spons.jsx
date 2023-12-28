@@ -12,11 +12,12 @@ const Spons = () => {
           <div className="rinfo">
             <p>Rmageddon</p>
             <p id="Content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-              laborum modi deleniti. Excepturi odio ipsam enim, explicabo dolore
-              perspiciatis nam natus voluptates sequi harum dolorem nisi,
-              voluptatibus itaque cum omnis alias architecto officia distinctio
-              neque cupiditate. Accusamus ex nam eum!
+            Unleash the full potential of your robotic 
+            creations and showcase your skills to the 
+            elite in the field of robotics. Compete 
+            for recognition and prizes at Rmageddon 
+            and be a part of the most exciting robotics
+            event of the year!
             </p>
           </div>
           <div className="sponinfo">

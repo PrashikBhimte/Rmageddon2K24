@@ -10,16 +10,15 @@ const Unlock = () => {
                 <div className='unlock-maindiv'>
                     <p className='unlock-text'>Unlock Your Potential<br />through Rmageddon <br />After Participating</p>
                     <ul className='unlock-content'>
-                        <li>Development of teamwork and project management skills</li>
-                        <li>Hands-on experience with designing, building, and programming robots</li>
-                        <li>Exciting Prizes and Certificates after completion</li>
-                        <li>Top 3 teams from each game will be allowed to sit for interviews for direct recruitment!!</li>
-                        <li>Teams will be awarded on the basis of their design, speed and other parameters of their bots.</li>
+                        <li>Development of teamwork and learn "GAMESMANSHIP" and "CREATIVITY" - a crucial 21st century skills.</li>
+                        <li>Exceptional hands-on learning experience with designing, building and complement your engineering curriculum.</li>
+                        <li> Exciting Prizes,Certificates after completion and a ton of excitement.</li>
+                        <li>By participating in the competition, familiarize yourself with SCI-FI realm.</li>
                     </ul>
                     <div className="award">
                         <div className="cash-prize">
                             <p className="unlock-heading">Cash Prizes</p>
-                            <p className='award-p'>The Overall Cash Prize of Rs.50,000 </p>
+                            <p className='award-p'>Cash prize for each Game.</p>
 
                         </div>
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import HeroPage from '../heropage/HeroPage';
-import Spons from '../spons/Spons';
+// import Spons from '../spons/Spons';
 import Footer from '../footer/footer';
-import Notifications from '../notification/Notifications';
+// import Notifications from '../notification/Notifications';
 import Info from '../Steps/Info';
 import Card from '../gamesection/Card';
 import Unlock from '../unstop/Unlock';
@@ -16,8 +16,8 @@ export default function HomePage() {
       <HeroPage />
       <Unlock />
       <Info />
-      <Notifications />
-      <Spons />
+      {/* <Notifications /> */}
+      {/* <Spons /> */}
       <Card />
       <Footer />
     </div>

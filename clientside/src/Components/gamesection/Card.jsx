@@ -11,36 +11,36 @@ function Card(){
             key:1,
             // url:"https://i0.wp.com/roboticsindia.live/wp-content/uploads/2021/04/IMG_20210423_195643.jpg?resize=800%2C450&ssl=1",
             url:img2,
-            title:"ROBOSUMO",
-            content:"Design a wired robot within the specified dimensions that can operated manually and can travel through all turns of the track and pass through all the obstacles. The robot that will complete the race in least time will be the winner of the RETROMANIA."
+            title:"Dread Showdown",
+            content:"Dive into the thrilling world of 'Dread Showdown' : A Robo-Sumo competition! Customize your bots to battle it out in a confined arena. Operator should try to push the opponent's robot out of the arena but the one with the premier controlling & best tactics will win the bout."
         },
         {
             key:2,
             // url:"https://s3-ap-southeast-1.amazonaws.com/assets.skyfilabs.com/images/blog/line-follower-with-arm-robot.jpg",
             url:img1,
-            title:"LINE  FOLLOWER",
-            content:"The goal of the PAC RUNNER contest is for a robot to accurately follow a black line on a white background, navigate various turns, and complete the arena in the shortest time possible. The robot that successfully tracks the path line from start to finish in the quickest manner will be the winner."
+            title:"Quantum Nexus",
+            content:"Quantum nexus is a line follower competition.The goal of the Quantum Nexus competition is for a robot to accurately follow a black line on white surface, maneuver intricate paths and complete the arena in the shortest time possible. The robot that successfully routes the path line from start to finish in the quickest manner will win the competition."
         },
         {
             key:3,
             // url:"https://www.automate.org/images/ogImages/RIA-blog-pick-and-place-robots.jpeg",
             url:img3,
-            title:"PICK N PLACE",
-            content:"NINJA CLASH is a sport in which 2 robots have to push each other out of the arena. The operators have to operate robots from outside and try to push opponent's robot out of the arena by different tactics also have to prevent own robot from leaving the arena."
+            title:"Blitz Place",
+            content:"Blitz Place is a dynamic pick-and-place robotics competition wherein robots showcase their precision and agility in picking up and placing objects with fineness. It challenges teams to build optimal bot which can navigate the arena, strategically grabbing and relocating items with delicacy."
         },
         {
             key:4,
             // url:"https://i.ytimg.com/vi/BCMy94x2PwU/maxresdefault.jpg",
             url:img4,
-            title:"ROBORACE",
-            content:"Roborace was a competition with autonomously driving, electrically powered vehicles.[1] Founded in 2015 by Denis Sverdlov, it aimed to be the first global championship for autonomous cars.[2] From 2017 to 2019, the official CEO was 2016–17 Formula E champion, Lucas Di Grassi, who later became a member of Roborace’s supervisory board. The series tested their technology and race formats at FIA Formula E Championship events during 2016–2018."
+            title:"Path Blozer",
+            content:"Encounter the realm of 'Path Blazer' : A RoboRace competition! The goal of Path Blazer competition is to build a wired  robot to be operated manually and should travel through exciting turns and conquer all the obstacles. The robot that will finish the arena in minimal time will win this game."
         },
         {
             key:5,
             // url:"https://miro.medium.com/v2/resize:fit:1024/0*rnYWcmRH4KbfCWzt.png",
             url:img5,
             title:"HACKATHON",
-            content:"A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program. The word hackathon is a portmanteau of the words hacker, which means clever programmer, and marathon, an event marked by endurance."
+            content:"hackathon is a fast-paced, collaborative event where students with various skills converge to develop creative projects. In a specified time, teams work on coding, design, and business aspects to build prototypes and find innovative solutions."
         },
     ]
     return (

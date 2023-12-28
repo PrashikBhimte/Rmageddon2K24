@@ -11,10 +11,8 @@ export default function Herobottom() {
             technical expertise. Robotics for Next Generation,
             or RNXG, is the greatest platform for working on 
             various issue statements and developing the best 
-            solutions for them. Artificial Intelligence, Machine
-            Learning, Deep Learning, Embedded Systems, IoT, VLSI,
-            Robotics, and other emerging technologies are explored
-            in RNXG.</p>
+            solutions for them.
+            </p>
             <a href='https://www.rnxg.co.in/'><button>Explore</button></a>
         </div>
         <div className='clock' >
