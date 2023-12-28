@@ -39,6 +39,7 @@ footer {
 .footer-col p {
     color: #bababa;
     font-family: 'JetBrains Mono';
+    text-align: justify;
 }
 
 .footer-icons {

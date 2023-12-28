@@ -46,6 +46,7 @@
     margin: 5px 0px;
     font-size: 13px;
     color: #bababa;
+    text-align: justify;
 }
 
 @media (min-width:645px) and (max-width:940px)
