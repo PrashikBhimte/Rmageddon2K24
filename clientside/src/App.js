@@ -5,13 +5,14 @@ import { useEffect, useState } from 'react';
 import Loader from './Components/loader/loader';
 import Come from './Components/comeing-soon/come';
 
+
 function App() {
 
   const [ loading, setLoading  ] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false)
+      setLoading(false);
     }, 1500);
   }, []);
 

@@ -3,8 +3,13 @@ import './Game.css';
 import Image from '../../images/back1-removebg.png';
 import { GrFormNext } from "react-icons/gr";
 import { GrFormPrevious } from "react-icons/gr";
+import useSound from 'use-sound';
+import sound from "../../sounds/click.mp3";
 
 function Game({slides}){
+
+  const [play] = useSound(sound);
+
     // let count=0;
     const [currentslide,setcurrentslide]=useState(0);
     const [currentcontent,setcurrentcontent]=useState(0);
@@ -29,9 +34,9 @@ function Game({slides}){
           <div className='games-maindiv'>
             <p className='gameheading'>The Games</p>
            <div className='games-images'>
-              <button className='btn' onClick={prevslide}><GrFormPrevious /></button>
+              <button className='btn' onClick={() => {play(); prevslide();}}><GrFormPrevious /></button>
               <img alt='anImage' src={slides[currentslide].url} className='games-image'/>
-              <button className='btn' onClick={nextslide}><GrFormNext /></button>
+              <button className='btn' onClick={() => {play(); nextslide();}}><GrFormNext /></button>
            </div>
             <div className='games-bottom'>
               <div className='games-heading'>

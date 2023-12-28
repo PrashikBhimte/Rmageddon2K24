@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import logo from "../../images/logo.png";
 import { HiMenuAlt1 } from "react-icons/hi";
+import useSound from 'use-sound';
+import sound from "../../sounds/click.mp3";
 
 export default function Navbar() {
 
+  const [play] = useSound(sound);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleClick = () => {
@@ -38,7 +41,7 @@ export default function Navbar() {
     <>
       <div className='mobile'>
         <img src={logo} alt='logo' />
-        <button onClick={handleClick}><HiMenuAlt1 /></button>
+        <button onClick={() => {handleClick();play();}}><HiMenuAlt1 /></button>
       </div>
       <nav id='navbar'>
         <ul>
@@ -48,7 +51,7 @@ export default function Navbar() {
           <li><a href='#abc' onClick={handleClose}>Close</a></li>
         </ul>
         <div>
-          <a href='registre'><button>Register</button></a>
+          <a href='registre'><button onClick={play}>Register</button></a>
           <div className='circle' id='circle1'></div>
           <div className='circle' id='circle2'></div>
         </div>

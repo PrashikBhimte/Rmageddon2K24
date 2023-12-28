@@ -1,7 +1,12 @@
 import React from 'react';
 import "./heroinfo.css";
+import useSound from 'use-sound';
+import sound from "../../sounds/click.mp3";
 
 export default function Heroinfo() {
+
+  const [play] = useSound(sound);
+
   return (
     <div className='heroinfo'>
         <p id='heading'>Rmageddon</p>
@@ -14,7 +19,7 @@ export default function Heroinfo() {
         a part of the most exciting robotics event
         of the year!
         </p>
-        <a href='#unlock'><button>Explore Now</button></a>
+        <a href='#unlock'><button onClick={play}>Explore Now</button></a>
     </div>
   )
 }

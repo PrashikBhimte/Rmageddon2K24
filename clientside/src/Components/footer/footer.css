@@ -59,6 +59,10 @@ footer {
     align-items: center;
 }
 
+.footer-icons li:hover {
+    scale: 1.05;
+}
+
 .footer-icons li a {
     font-size: 20px;
     color: black;

@@ -4,6 +4,7 @@ import "./loader.css";
 import video from "../../videos/loader.mp4";
 
 export default function Loader() {
+
   return (
     <div className='loader'>
       <video autoPlay muted typeof='mp4/video'>

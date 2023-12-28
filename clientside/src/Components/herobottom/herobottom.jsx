@@ -1,7 +1,12 @@
 import React from 'react';
 import "./herobottom.css";
+import useSound from 'use-sound';
+import sound from "../../sounds/click.mp3";
 
 export default function Herobottom() {
+
+  const [play] = useSound(sound);
+
   return (
     <div className='herobottom'>
         <div className='rnxginfo'>
@@ -13,7 +18,7 @@ export default function Herobottom() {
             various issue statements and developing the best 
             solutions for them.
             </p>
-            <a href='https://www.rnxg.co.in/'><button>Explore</button></a>
+            <a href='https://www.rnxg.co.in/'><button onClick={play}>Explore</button></a>
         </div>
         <div className='clock' >
             {/* <p>Days left</p> */}
