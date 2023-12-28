@@ -65,6 +65,10 @@
     font-family: 'JetBrains Mono', sans-serif;
 }
 
+.cash-prize:hover, .certificate:hover {
+    box-shadow: 0px 0px 30px 2px #99C7F4;
+}
+
 @media (max-width : 1200px) {
     .unlock-parentdiv {
         height: auto;

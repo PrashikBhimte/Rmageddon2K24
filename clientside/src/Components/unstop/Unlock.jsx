@@ -24,7 +24,7 @@ const Unlock = () => {
 
                         <div className="certificate">
                             <p className="unlock-heading">Certificate of Participation</p>
-                            <p className='award-p'>Every Participate will get the Certificate</p>
+                            <p className='award-p'>Every Participant will get the Certificate</p>
                         </div>
                     </div>
                 </div>
