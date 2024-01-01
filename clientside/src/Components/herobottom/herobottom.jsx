@@ -23,7 +23,7 @@ export default function Herobottom() {
         </div>
         <div className='clock' >
             <p>Days left</p>
-            <Timer />
+            <Timer date="February, 09, 2024"/>
         </div>
         <div className='gameinfo' > 
             <p><span>4+</span> <span>Games</span></p>
