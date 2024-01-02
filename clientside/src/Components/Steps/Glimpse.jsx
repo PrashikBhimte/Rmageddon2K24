@@ -10,13 +10,15 @@ function Glimpse(){
     const [nextImage,setnextImage]=useState(1);
     const [prevImage,setprevImage]=useState(2);
     const [style,setstyle]=useState(1);
+    const [brightness,setbrightness]=useState(120);
     
     useEffect(()=>{
         const styletime=setInterval(()=>{
         
                 setstyle((i)=>i===1?1.07:1);
+                setbrightness((b)=>b===120?150:120)
             
-        },1500)
+        },1000)
         return ()=>clearInterval(styletime)
     },[style])
 
@@ -26,14 +28,14 @@ function Glimpse(){
             setcurrentImage((i)=>(i+1)%Images.length)
             setnextImage((j)=>(j+1)%Images.length)
             setprevImage((k)=>(k+1)%Images.length)
-        },2000);
+        },5000);
         return ()=>clearInterval(time);
     },[currentImage])
    
     return (
         <div className='blackdiv'>
             <h2 className='heading1'>Glance  of  Rmageddon23...</h2>
-        <div className='images-section1' style={{transform:`scale(${style})`}} >
+        <div className='images-section1' style={{transform:`scale(${style})`, filter:`brightness(${brightness}%)`}} >
             <img src={Images[currentImage].url} className='image'/>
         </div>
         <div className='images-section2'>
