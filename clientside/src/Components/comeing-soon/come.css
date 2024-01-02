@@ -1,0 +1,25 @@
+.comeing-soon {
+    z-index: 99999;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    color: white;
+    font-size: 50px;
+    font-family: 'JetBrains Mono';
+}
+
+.comeing-soon p {
+    width: 90%;
+    text-align: center;
+}
+
+
+@media (max-width : 700px) {
+    .comeing-soon {
+        font-size: 30px;
+    }
+}
