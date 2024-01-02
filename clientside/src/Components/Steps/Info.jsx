@@ -2,7 +2,6 @@ import { React } from "react";
 import "./Info.css";
 import Image from "../../images/back1-removebg.png";
 
-
 function Info() {
   return (
     <div className="main">
