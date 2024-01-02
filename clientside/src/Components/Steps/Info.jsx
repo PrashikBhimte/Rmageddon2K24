@@ -1,7 +1,7 @@
 import { React } from "react";
 import "./Info.css";
 import Image from "../../images/back1-removebg.png";
-
+import Glimpse from "./Glimpse";
 
 function Info() {
   return (
@@ -48,6 +48,7 @@ function Info() {
             </ul>
           </div>
         </div>
+        <Glimpse />
       </div>
     </div>
   );

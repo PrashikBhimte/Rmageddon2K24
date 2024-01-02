@@ -1,0 +1,70 @@
+.images-section1{
+    position:absolute;
+    width: 55%;
+    height: 80%;
+    top:18%;
+    left: 22.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images-section2{
+    position: absolute;
+    width: 25%;
+    height: 62%;
+    top: 28%;
+    left: 7%;
+}
+.images-section3{
+    position: absolute;
+    width: 25%;
+    height: 62%;
+    top: 28%;
+    right: 7%;
+}
+
+.image{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    box-shadow: 0 3px 20px rgba(23, 100, 237, 0.5);
+    filter: brightness(100%);
+}
+.blackdiv{
+    width: 100%;
+    position: relative;
+    height: 39%;
+    top: 50%;
+    left: 1%;
+}
+.heading1{
+    position: absolute;
+    width: 45%;
+    height: 17%;
+    color: white;
+    font-family: 'Wallpoet';
+    top: -8%;
+    line-height: 30px;
+    font-size: 25px;
+}
+.image1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    filter: blur(5px);
+}
+.image2{
+    position: absolute;
+    width:100% ;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    filter: blur(6px);
+    
+}
+
+
+
+
