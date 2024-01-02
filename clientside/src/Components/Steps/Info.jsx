@@ -2,6 +2,7 @@ import { React, useEffect, useState } from "react";
 import "./Info.css";
 import Image from "../../images/back1-removebg.png";
 import Img from "../../images/footerImg-removebg-preview.png";
+import Glimpse from "./Glimpse";
 function Info() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [srcImg, setSrcImg] = useState(Image);
@@ -67,6 +68,7 @@ function Info() {
             </ul>
           </div>
         </div>
+        <Glimpse />
       </div>
     </div>
   );
