@@ -1,0 +1,38 @@
+.heropagemain {
+    scroll-snap-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heropage {
+    margin: 50px 0px;
+    width: 75%;
+    height: 90%;
+}
+
+.relativecontent {
+    position: relative;
+}
+
+@media (max-width : 1200px) {
+
+    .heropagemain {
+        height: auto;
+    }
+
+    .heropage {
+        margin: 0;
+        width: 100%;
+        height: auto ;
+        background-image: url("https://res.cloudinary.com/doiocpcni/image/upload/v1704271747/Rmageddon2K24/Section_1_z0n8kj.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .main {
+        height: auto;
+    }
+}

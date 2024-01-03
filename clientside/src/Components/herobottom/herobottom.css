@@ -1,0 +1,102 @@
+.herobottom {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.rnxginfo {
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    /* background-color: #262626; */
+    clip-path: polygon(0 0, 90% 0, 100% 12%, 100% 100%, 17% 100%, 0 80%);
+}
+
+.rnxginfo p:first-of-type {
+    margin: 0;
+    padding: 0;
+    font-family: 'Wallpoet', monospace;
+    font-size: 30px;
+}
+
+.rnxginfo p:last-of-type {
+    width: 80%;
+    max-width: 500px;
+    color: #bababa;
+    font-size: 11px;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: justify;
+}
+
+.rnxginfo button {
+    width: 140px;
+    height: 40px;
+    background-color: #95c5f4;
+    border: none;
+    color: #262626;
+    font-size: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    clip-path: polygon(0 0, 85% 0, 100% 45%, 100% 100%, 25% 100%, 0 55%);
+}
+
+.clock {
+    width: 20%;
+    height: 80%;
+    font-family: 'Gugi';
+    font-size: 20px;
+    background: linear-gradient(291deg, #121212 0%, #404040 101.05%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gameinfo {
+    width: 20%;
+    height: 80%;
+    background-color: transparent;
+    /* background-color: #121212; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gameinfo p {
+    font-family: 'Gugi';
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width : 1200px) {
+    .herobottom {
+        position: relative;
+        height: auto;
+    }
+    .rnxginfo {
+        width: 100%;
+        padding: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rnxginfo button {
+        margin: 50px 0px;
+    }
+    .clock {
+        width: 90%;
+    }
+    .gameinfo {
+        width: 90%;
+    }
+}

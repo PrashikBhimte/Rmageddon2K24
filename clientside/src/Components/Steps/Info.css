@@ -1,0 +1,85 @@
+.parentdiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv{
+    width: 75%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.heading{
+    font-family: 'Wallpoet';
+    color: white;
+    font-size: 30px;
+    width: 63%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+}
+.heading p {
+    margin: 0;
+}
+.subheading{
+    width: 90%;
+    margin : 0px auto;
+}
+
+.lis {
+    width: 100%;
+    font-family: 'JetBrains Mono';
+}
+
+.lis p:first-of-type {
+    color: #99C7F4;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.lis p:last-of-type {
+    margin: 5px 0px;
+    font-size: 13px;
+    color: #bababa;
+    text-align: justify;
+}
+
+@media (min-width:645px) and (max-width:940px)
+{
+    .heading{
+        font-size: 30px;
+    }
+}
+@media (max-width:1200px)
+{
+    .lis p:last-of-type {
+        max-width: 500px;
+    }
+}
+@media (min-width:551px) and (max-width:644px)
+{
+    .heading{
+        width: 70%;
+        font-size: 30px;
+    }
+}
+@media (max-width:1200px)
+{
+    .parentdiv {
+        background-color: #111111;
+        height: auto;
+    }
+    .maindiv {
+        height: auto;
+    }
+    .heading{
+        width: 100%;
+        font-size: 30px;
+    }
+}

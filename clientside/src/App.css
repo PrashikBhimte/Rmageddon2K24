@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: white;
+    overflow-x: hidden;
+}
+
+#background {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -999;
+}
+
+@media (max-width : 1200px) {
+    #background {
+        display: none;
+    }
+}
+
+.gradient {
+    position: fixed;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    z-index: -9999;
+    background-attachment: fixed;
+}
+
+@media ( max-width : 1200px ) {
+    .gradient {
+        display: none;
+    }
+}
+
+#gradient1 {
+    box-shadow: 0px 0px 300px 100px #8C3578;
+    right: 0;
+    top: 30%;
+}
+
+#gradient2 {
+    box-shadow: 0px 0px 300px 100px #95c5f4;
+    left: 0;
+    top: 0;
+}
+
+#gradient3 {
+    box-shadow: 0px 0px 300px 100px #95c5f4;
+    left: 30%;
+    bottom: 0;
+}
+
+.vivek {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+.homepage {
+    margin-left: 20px;
+}
+
+.vertical-bar {
+    width: 5px;
+    height: 98vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10px;
+    border-radius: 25px;    
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+.vertical-inner-bar {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #95c5f4, #8C3578);
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 2px #95c5f4;
+}

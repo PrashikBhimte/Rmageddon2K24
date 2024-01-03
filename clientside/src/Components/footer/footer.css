@@ -1,0 +1,116 @@
+footer {
+    scroll-snap-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 80px 0 10px;
+    font-size: 15px;
+    background-color: #95C5F4;
+    background-image: url("https://res.cloudinary.com/doiocpcni/image/upload/v1704271536/Rmageddon2K24/footerImg-removebg-preview_ehgsn4.png");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-row {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 50%;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Wallpoet';
+}
+
+.footer-col p {
+    color: #bababa;
+    font-family: 'JetBrains Mono';
+    text-align: justify;
+}
+
+.footer-icons {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icons li{
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%;
+    background-color: #95C5F4;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-icons li:hover {
+    scale: 1.05;
+}
+
+.footer-icons li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer hr {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.bottom-footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #bababa;
+    font-family: 'JetBrains Mono';
+}
+
+.bottom-footer a {
+    color: #bababa;
+}
+
+@media (max-width: 700px) {
+    footer {
+        position: relative;
+        /* bottom: 0; */
+    }
+
+    .footer-col {
+        flex-basis: 100%;
+    }
+
+    .footer-col:nth-child(2),
+    .footer-col:nth-child(3) {
+        flex-basis: 15%;
+    }
+    .bottom-footer {
+        flex-direction: column-reverse;
+    }
+    .footer-icons {
+        width: 100%;
+    }
+}   
