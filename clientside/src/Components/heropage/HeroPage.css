@@ -11,16 +11,13 @@
     margin: 50px 0px;
     width: 75%;
     height: 90%;
-    /* background-image: url("../../images/Slice\ 2.png");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .relativecontent {
     position: relative;
 }
 
-@media (max-width : 550px) {
+@media (max-width : 1200px) {
 
     .heropagemain {
         height: auto;
@@ -30,7 +27,7 @@
         margin: 0;
         width: 100%;
         height: auto ;
-        background-image: url("../../images/Section\ 1.png");
+        background-image: url("https://res.cloudinary.com/doiocpcni/image/upload/v1704271747/Rmageddon2K24/Section_1_z0n8kj.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }

@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #111111;
     color: white;
     overflow-x: hidden;
-    scroll-snap-type: both mandatory;
 }
 
 #background {
@@ -23,7 +26,7 @@ body {
     z-index: -999;
 }
 
-@media (max-width : 550px) {
+@media (max-width : 1200px) {
     #background {
         display: none;
     }
@@ -36,6 +39,12 @@ body {
     border-radius: 50%;
     z-index: -9999;
     background-attachment: fixed;
+}
+
+@media ( max-width : 1200px ) {
+    .gradient {
+        display: none;
+    }
 }
 
 #gradient1 {
@@ -69,4 +78,29 @@ body {
 
 button:active {
     scale: 0.95;
+}
+
+.homepage {
+    margin-left: 20px;
+}
+
+.vertical-bar {
+    width: 5px;
+    height: 98vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10px;
+    border-radius: 25px;    
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+.vertical-inner-bar {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #95c5f4, #8C3578);
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 2px #95c5f4;
 }

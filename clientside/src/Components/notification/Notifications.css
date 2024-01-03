@@ -27,6 +27,7 @@
 }
 
 .notinfo {
+    margin: 50px 0px;
     width: 70%;
     height: 25%;
     color: #bababa;
@@ -80,7 +81,7 @@
     margin: auto 10px;
 }
 
-@media (max-width : 550px) {
+@media (max-width : 1200px) {
     .message {
         width: 80%;
     }
@@ -101,8 +102,11 @@
         width: 100%;
         height: auto ;
         background-color: #111111;
-        /* background-image: url("../../images/Slice_1-removebg-preview.png");
-        background-repeat: no-repeat;
-        background-size: 100% 100%; */
+    }
+}
+
+@media ( max-width : 400px ) {
+    .notihead {
+        margin-top: 100px;
     }
 }

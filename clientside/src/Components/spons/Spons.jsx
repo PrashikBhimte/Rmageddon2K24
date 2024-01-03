@@ -1,44 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Spons.css";
-import background from "../../images/back1-removebg.png";
-import Mobackground from "../../images/Slice_1-removebg-preview.png"
 
 const Spons = () => {
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [srcImg, setSrcImg] = useState(background);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    }
-  }, []);
-  useEffect(() => {
-    if (windowWidth < 560) {
-      setSrcImg(Mobackground);
-    }
-    else {
-      setSrcImg(background);
-    }
-  }, [windowWidth]);
-
   return (
     <div className="main">
-      <div className="Main">
-        <img src={srcImg} alt="background2" id="background2"></img>
+      <div id="organisers" className="Main">
+        <img src="https://res.cloudinary.com/doiocpcni/image/upload/v1704271063/Rmageddon2K24/back1-removebg_kf9mxb.png" alt="background2" id="background2"></img>
         <div className="Box">
           <div className="rinfo">
             <p>Rmageddon</p>
             <p id="Content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-              laborum modi deleniti. Excepturi odio ipsam enim, explicabo dolore
-              perspiciatis nam natus voluptates sequi harum dolorem nisi,
-              voluptatibus itaque cum omnis alias architecto officia distinctio
-              neque cupiditate. Accusamus ex nam eum!
+            Unleash the full potential of your robotic 
+            creations and showcase your skills to the 
+            elite in the field of robotics. Compete 
+            for recognition and prizes at Rmageddon 
+            and be a part of the most exciting robotics
+            event of the year!
             </p>
           </div>
           <div className="sponinfo">
