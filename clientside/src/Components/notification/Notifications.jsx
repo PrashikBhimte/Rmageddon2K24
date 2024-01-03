@@ -6,6 +6,7 @@ export default function Notifications() {
 
     const [info, setinfo] = useState("");
 
+
     function handleClick(id) {
         setinfo(data.map((key) => { let i = ""; if (key.id === id) {i = key.info} return i;}));
     }
