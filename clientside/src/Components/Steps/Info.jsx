@@ -1,74 +1,53 @@
-import { React, useEffect, useState } from "react";
+import { React } from "react";
 import "./Info.css";
-import Image from "../../images/back1-removebg.png";
-import Img from "../../images/footerImg-removebg-preview.png";
 import Glimpse from "./Glimpse";
+
 function Info() {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [srcImg, setSrcImg] = useState(Image);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (windowWidth < 550) {
-      setSrcImg(Img);
-    } else {
-      setSrcImg(Image);
-    }
-  }, [windowWidth]);
   return (
     <div className="main">
-      <div className="parentdiv">
-        <img src={srcImg} id="background" />
+      <div id="Steps" className="parentdiv">
+        <img src="https://res.cloudinary.com/doiocpcni/image/upload/v1704271063/Rmageddon2K24/back1-removebg_kf9mxb.png" alt="background" id="background" />
         <div className="maindiv">
           <div className="heading">
-            <h2>Steps to confirm your seat in RMAGEDDON24</h2>
+            <p>Steps to confirm your seat in RMAGEDDON 24</p>
           </div>
           <div className="subheading">
             <ul>
-              <li className="first">
-                <h3 className="text1">Filling Up The Form</h3>
-
-                <h4 className="content1">
-                  Please complete the form provided below with accurate and
-                  unique information before the registration deadline on
-                  February 5th at 11:59 PM . Kindly make sure to submit the
-                  required fee payment as well.
-                </h4>
+              <li className="lis">
+                <p>Filling Up the Form : </p>
+                <p>
+                Please visit the Register button given above 
+                which will redirect you to UNSTOP. On visiting 
+                UNSTOP you should fill all the required details 
+                with accurate information before the registration 
+                deadline. Kindly make sure to submit the required 
+                fee payment as well.
+                </p>
               </li>
-              <li className="second">
-                <h3 className="text2">Verifying Details</h3>
-
-                <h4 className="content2">
-                  Our team will conduct a thorough verification of the
-                  information provided by you. If we encounter any issues during
-                  the verification process, we will contact the relevant team
-                  for resolution. If everything is in order, you can expect to
-                  receive a confirmation email within 1-2 days.
-                </h4>
+              <li className="lis">
+                <p>Verifying Details : </p>
+                <p>
+                Our team will conduct a thorough verification of 
+                the information provided by you. If we encounter 
+                any issues during the verification process, we will 
+                contact the relevant team for resolution. If 
+                everything is in order, you can expect to receive 
+                a confirmation email within 1-2 days.
+                </p>
               </li>
-              <li className="third">
-                <h3 className="text3">Create And Conquer</h3>
-
-                <h4 class="content3">
-                  Upon receipt of the confirmation email, please visit the RNXG
-                  lab where you will receive the necessary components based on
-                  your registration. We will then assist you in getting your bot
-                  ready for the competition in the arena.
-                </h4>
+              <li className="lis">
+                <p>Enter the cosmos of Robotics : </p>
+                <p>
+                Upon receipt of the confirmation email, be ready 
+                to conquer the competition on Feb, 2024. We welcome 
+                you all in the cosmos of robotics and wish you to 
+                acquire the crown of victory.
+                </p>
               </li>
             </ul>
           </div>
+          <Glimpse />
         </div>
-        <Glimpse />
       </div>
     </div>
   );

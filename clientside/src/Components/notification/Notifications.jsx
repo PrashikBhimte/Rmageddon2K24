@@ -1,33 +1,11 @@
 import React from 'react';
 import "./Notifications.css";
-import background1 from "../../images/back1-removebg.png";
-import background2 from "../../images/Slice_1-removebg-preview.png";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function Notifications() {
 
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const [srcImg, setSrcImg] = useState(background1);
     const [info, setinfo] = useState("");
 
-    useEffect(() => {
-        const handleResize = () => {
-            setWindowWidth(window.innerWidth);
-        };
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        }
-    }, []);
-
-    useEffect(() => {
-        if (windowWidth < 550) {
-            setSrcImg(background2);
-        }
-        else {
-            setSrcImg(background1);
-        }
-    }, [windowWidth]);
 
     function handleClick(id) {
         setinfo(data.map((key) => { let i = ""; if (key.id === id) {i = key.info} return i;}));
@@ -48,7 +26,7 @@ export default function Notifications() {
     return (
         <div className='main'>
             <div className='notifications'>
-                <img src={srcImg} alt='background' id='background' />
+                <img src="https://res.cloudinary.com/doiocpcni/image/upload/v1704271063/Rmageddon2K24/back1-removebg_kf9mxb.png" alt='background' id='background' />
                 <div className='notiDiv'>
                     <p className='notihead'>Notifications</p>
                     <div className='notins'>
