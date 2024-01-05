@@ -9,7 +9,7 @@ export default function Heroinfo() {
 
   return (
     <div className='heroinfo'>
-        <p id='heading'>RMAGEDDON - 2024</p>
+        <p id='heading'>RMAGEDDON-2024</p>
         <p id='tagline'>Become an Early Adapter</p>
         <p id='information'>
         Unleash the full potential of your robotic
