@@ -19,7 +19,8 @@
     width: 100%;
     color: white;
     font-family: 'Wallpoet', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
+    margin-bottom: 0px;
 }
 
 .unlock-content {
@@ -30,7 +31,7 @@
     margin: 15px 0px;
     color: #bababa;
     font-family: 'JetBrains Mono', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     text-align: justify;
 }
 
@@ -62,12 +63,12 @@
     width: 100%;
     text-align: center;
     color: #bababa;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'JetBrains Mono', sans-serif;
 }
 
 .cash-prize:hover, .certificate:hover {
-    box-shadow: 0px 0px 30px 2px #99C7F4;
+    box-shadow: 0px 0px 10px 2px #99C7F4;
 }
 
 @media (max-width : 1200px) {

@@ -5,9 +5,12 @@
 
 .blackdiv-heading1 {
     width: 100%;
+    margin-left: -10%;
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Wallpoet';
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .blackdiv-inner {

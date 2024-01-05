@@ -40,6 +40,7 @@ footer {
     color: #bababa;
     font-family: 'JetBrains Mono';
     text-align: justify;
+    font-size: 13px;
 }
 
 .footer-icons {
@@ -87,6 +88,7 @@ footer hr {
     padding: 20px;
     color: #bababa;
     font-family: 'JetBrains Mono';
+    font-size: 13px;
 }
 
 .bottom-footer a {

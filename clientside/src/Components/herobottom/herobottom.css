@@ -29,9 +29,8 @@
 
 .rnxginfo p:last-of-type {
     width: 80%;
-    max-width: 500px;
     color: #bababa;
-    font-size: 11px;
+    font-size: 13px;
     font-family: 'JetBrains Mono', monospace;
     text-align: justify;
 }
@@ -44,14 +43,14 @@
     color: #262626;
     font-size: 16px;
     font-family: 'JetBrains Mono', monospace;
-    clip-path: polygon(0 0, 85% 0, 100% 45%, 100% 100%, 25% 100%, 0 55%);
+    clip-path: polygon(0 0, 75% 0, 100% 45%, 100% 100%, 25% 100%, 0 55%);
 }
 
 .clock {
     width: 20%;
     height: 80%;
     font-family: 'Gugi';
-    font-size: 20px;
+    font-size: 25px;
     background: linear-gradient(291deg, #121212 0%, #404040 101.05%);
     display: flex;
     justify-content: space-evenly;
@@ -67,6 +66,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 20px;
 }
 
 .gameinfo p {
@@ -89,6 +89,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .rnxginfo p:last-of-type {
+        max-width: 500px;
     }
     .rnxginfo button {
         margin: 50px 0px;
