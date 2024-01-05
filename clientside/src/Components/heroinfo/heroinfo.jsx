@@ -4,7 +4,7 @@ import "./heroinfo.css";
 export default function Heroinfo() {
   return (
     <div className='heroinfo'>
-        <p id='heading'>Rmageddon</p>
+        <p id='heading'>RMAGEDDON-2024</p>
         <p id='tagline'>Become an Early Adapter</p>
         <p id='information'>
             If you want to dynamically change the image
