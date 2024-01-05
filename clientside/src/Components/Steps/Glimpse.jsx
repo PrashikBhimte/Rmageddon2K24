@@ -7,13 +7,13 @@ function Glimpse(){
     const [nextImage,setnextImage]=useState(1);
     const [prevImage,setprevImage]=useState(2);
     const [style,setstyle]=useState(1);
-    const [brightness,setbrightness]=useState(120);
+    const [brightness,setbrightness]=useState(130);
     
     useEffect(()=>{
         const styletime=setInterval(()=>{
         
                 setstyle((i)=>i===1?1.07:1);
-                setbrightness((b)=>b===120?150:120)
+                setbrightness((b)=>b===130?150:130)
             
         },1000)
         return ()=>clearInterval(styletime)
