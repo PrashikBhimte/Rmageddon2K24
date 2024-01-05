@@ -14,6 +14,7 @@
     height: 62%;
     top: 28%;
     left: 7%;
+    perspective: 200px;
 }
 .images-section3{
     position: absolute;
@@ -21,6 +22,7 @@
     height: 62%;
     top: 28%;
     right: 7%;
+    perspective: 200px;
 }
 
 .image{
@@ -28,7 +30,7 @@
     width: 60%;
     height: 100%;
     box-shadow: 0 3px 20px rgba(23, 100, 237, 0.5);
-    filter: brightness(100%);
+   
 }
 .blackdiv{
     width: 100%;
@@ -53,7 +55,8 @@
     height: 100%;
     left: 0%;
     top: 0%;
-    filter: blur(5px);
+    filter: blur(3px);
+    transform: rotateY(10deg);
 }
 .image2{
     position: absolute;
@@ -61,8 +64,8 @@
     height: 100%;
     left: 0%;
     top: 0%;
-    filter: blur(6px);
-    
+    filter: blur(3px);
+    transform: rotateY(-10deg);
 }
 
 
