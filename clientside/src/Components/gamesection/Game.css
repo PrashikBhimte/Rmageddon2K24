@@ -148,3 +148,11 @@
     height: 200px;
   }
 }
+
+@media (max-width : 400px) {
+  .games-buttons {
+    width: 100%;
+    flex-direction: column;
+    height: 100px;
+  }
+}

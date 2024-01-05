@@ -25,10 +25,10 @@ export default function HomePage() {
   });
 
   return (
-    <div className='homepage'>
-      <div className='vertical-bar'>
+    <div>
+      {/* <div className='vertical-bar'>
         <div className='vertical-inner-bar' style={{ height : scroll + "%" }}></div>
-      </div>
+      </div> */}
       <div className='gradient' id='gradient1'></div>
       <div className='gradient' id='gradient2'></div>
       <div className='gradient' id='gradient3'></div>

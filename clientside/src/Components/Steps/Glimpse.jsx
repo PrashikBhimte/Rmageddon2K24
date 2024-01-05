@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Glimpse.css';
-import img1 from './linefollower.png';
-import img2 from './robosumo.png';
-import img3 from './picknplace.png';
-import img4 from './img4.jpeg';
-import img5 from './hackathon.jpeg' ;
 
 function Glimpse(){
   
@@ -55,10 +50,15 @@ function Glimpse(){
 // style={{ transform: `scale(${style})` }}
 
 const Images = [
-  { url: img2 },
-  { url: img1 },
-  { url: img3 },
-  { url: img4 },
-  { url: img5 },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390466/Rmageddon2K24/DSC_0751_zzj84m.jpg" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390483/Rmageddon2K24/DSC_0822_ggevzw.jpg" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390503/Rmageddon2K24/DSC_0994_lnt22z.jpg" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390524/Rmageddon2K24/DSC_1023_rujewn.jpg" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390543/Rmageddon2K24/DSC_1029_gfotcc.jpg" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390565/Rmageddon2K24/DSC_1043_pxt0eu.jpg" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390591/Rmageddon2K24/IMG_1797_e5x1hn.jpg" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390615/Rmageddon2K24/Screenshot_81_cmflzo.png" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390633/Rmageddon2K24/Screenshot_83_j881dj.png" },
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390678/Rmageddon2K24/Screenshot_89_otipag.png" }
 ];
 export default Glimpse;

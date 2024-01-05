@@ -4,6 +4,7 @@ import { HiMenuAlt1 } from "react-icons/hi";
 import useSound from 'use-sound';
 import sound from "../../sounds/click.mp3";
 
+ 
 export default function Navbar() {
 
   const [play] = useSound(sound);
