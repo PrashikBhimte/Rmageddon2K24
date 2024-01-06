@@ -16,11 +16,15 @@
 }
 
 .unlock-text {
-    width: 100%;
+    width: 63%;
     color: white;
     font-family: 'Wallpoet', sans-serif;
-    font-size: 40px;
+    font-size: 2rem;
     margin-bottom: 0px;
+}
+
+.unlock-text-div {
+    width: 100%;
 }
 
 .unlock-content {
@@ -31,7 +35,7 @@
     margin: 15px 0px;
     color: #bababa;
     font-family: 'JetBrains Mono', sans-serif;
-    font-size: 13px;
+    font-size: 0.8rem;
     text-align: justify;
 }
 
@@ -53,7 +57,7 @@
 }
 
 .unlock-heading {
-    font-size: 20px;
+    font-size: 1rem;
     width: 100%;
     text-align: center;
     font-family: 'Gugi', 'Wallpoet';
@@ -63,7 +67,7 @@
     width: 100%;
     text-align: center;
     color: #bababa;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-family: 'JetBrains Mono', sans-serif;
 }
 
@@ -81,6 +85,7 @@
         background-color: #111111;
     }
     .unlock-text {
+        width: 100%;
         text-align: center;
         padding: 25px 0px;
     }

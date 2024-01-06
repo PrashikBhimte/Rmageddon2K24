@@ -7,18 +7,6 @@
     align-items: center;
 }
 
-#background2 {
-    width: 80%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: -9999;
-}
-
 .Box{
     width: 75%;
     height: 90%;
@@ -34,13 +22,13 @@
 }
 
 .rinfo p:first-of-type {
-    font-size: 50px;
-    font-family: wallpoet;
+    font-size: 2rem;
+    font-family: 'wallpoet';
 }
 
 #Content{
     width: 60%;
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #bababa;
     font-family: 'JetBrains Mono', monospace;
 }
@@ -56,7 +44,7 @@
 
 .sponinfo p {
     width: 90%;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: Wallpoet;
 }
 
@@ -93,7 +81,7 @@
 h6{
     margin: 0px;
     padding: 0px;
-    font-size: 15px;
+    font-size: 1rem;
     color: #bababa;
     font-family: 'JetBrains Mono', monospace;
 }   
@@ -101,9 +89,6 @@ h6{
 @media ( max-width : 900px ) {
     #Content {
         width: 90%;
-    }
-    .sponinfo p {
-        font-size: 25px;
     }
 }
 
@@ -121,7 +106,6 @@ h6{
         background-color: #111111;
     }
     .rinfo p:first-of-type {
-        font-size: 40px;
         text-align: center;
     }
     .sponinfo p {
@@ -130,11 +114,5 @@ h6{
     #Content {
         width: 100%;
         max-width: 500px;
-    }
-}
-
-@media ( max-width : 450px ) {
-    .rinfo p:first-of-type {
-        font-size: 30px;
     }
 }

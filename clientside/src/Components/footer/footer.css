@@ -5,7 +5,6 @@ footer {
     height: auto;
     min-height: 300px;
     padding: 80px 0 10px;
-    font-size: 15px;
     background-color: #95C5F4;
     background-image: url("https://res.cloudinary.com/doiocpcni/image/upload/v1704271536/Rmageddon2K24/footerImg-removebg-preview_ehgsn4.png");
     background-size: 100% 100%;
@@ -32,7 +31,7 @@ footer {
     margin-bottom: 10px;
     color: white;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 2rem;
     font-family: 'Wallpoet';
 }
 
@@ -40,7 +39,7 @@ footer {
     color: #bababa;
     font-family: 'JetBrains Mono';
     text-align: justify;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .footer-icons {
@@ -68,7 +67,7 @@ footer {
 }
 
 .footer-icons li a {
-    font-size: 20px;
+    font-size: 1rem;
     color: black;
     text-decoration: none;
     margin: 0;
@@ -88,7 +87,7 @@ footer hr {
     padding: 20px;
     color: #bababa;
     font-family: 'JetBrains Mono';
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .bottom-footer a {

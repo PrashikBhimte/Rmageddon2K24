@@ -7,7 +7,7 @@
     width: 100%;
     margin-left: -10%;
     text-align: left;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Wallpoet';
     margin-top: 25px;
     margin-bottom: 20px;
@@ -15,7 +15,7 @@
 
 .blackdiv-inner {
     width: 100%;
-    filter: blur(3px);
+    /* filter: blur(3px); */
     transform: rotateY(10deg);
     height: 70%;
     display: flex;
@@ -26,7 +26,7 @@
 .blackdiv-inner div {
     width: 30%;
     height: 100%;
-    filter: blur(3px);
+    /* filter: blur(3px); */
     transform: rotateY(-10deg);
     max-width: 500px;
 }

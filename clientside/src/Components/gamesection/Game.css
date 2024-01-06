@@ -16,7 +16,7 @@
 }
 
 .gameheading{
-  font-size: 40px;
+  font-size: 2rem;
   font-family: 'Wallpoet';
   color: white;
 }
@@ -36,7 +36,7 @@
 .games-images button {
   height: 40px;
   width: 40px;
-  font-size: 20px;
+  font-size: 1rem;
   border-radius: 50%;
   border: none;
   color: white;
@@ -63,7 +63,7 @@
 .games-heading{
   width: 100%;
   font-family: 'Wallpoet';
-  font-size: 30px;
+  font-size: 1rem;
   color: #99c7f4;
 }
 
@@ -71,7 +71,7 @@
   position: relative;
   width: 80%;
   font-family: 'JetBrains Mono';
-  font-size: 13px;
+  font-size: 0.8rem;
   color: #BABABA;
   text-align: justify;
 }
@@ -89,7 +89,7 @@
   height: 40px;
   background-color: #99C7F4;
   color: #262626;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'JetBrains Mono', monospace;
   border: none;
   clip-path: polygon(0 0, 85% 0, 100% 40%, 100% 100%, 15% 100%, 0 60%);
@@ -99,7 +99,7 @@
   width: 100%;
   max-width: 500px;
   height: 300px;
-  font-size: 30px;
+  font-size: 1rem;
   color: #BABABA;
   font-family: 'JetBrains Mono', monospace;
   text-align: center;

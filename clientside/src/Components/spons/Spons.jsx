@@ -6,7 +6,7 @@ const Spons = () => {
   return (
     <div className="main">
       <div id="organisers" className="Main">
-        <img src="https://res.cloudinary.com/doiocpcni/image/upload/v1704271063/Rmageddon2K24/back1-removebg_kf9mxb.png" alt="background2" id="background2"></img>
+        <img src="https://res.cloudinary.com/doiocpcni/image/upload/v1704271063/Rmageddon2K24/back1-removebg_kf9mxb.png" alt="background2" id="background"></img>
         <div className="Box">
           <div className="rinfo">
             <p>Rmageddon</p>

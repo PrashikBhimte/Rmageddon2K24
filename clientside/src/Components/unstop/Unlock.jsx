@@ -7,7 +7,9 @@ const Unlock = () => {
             <div id='unlock' className='unlock-parentdiv'>
                 <img alt='background' src="https://res.cloudinary.com/doiocpcni/image/upload/v1704271063/Rmageddon2K24/back1-removebg_kf9mxb.png" id='background' />
                 <div className='unlock-maindiv'>
-                    <p className='unlock-text'>Unlock Your Potential<br />through Rmageddon <br />After Participating</p>
+                    <div className='unlock-text-div'>
+                    <p className='unlock-text'>Unlock Your Potential through Rmageddon <br />After Participating</p>
+                    </div>
                     <ul className='unlock-content'>
                         <li>Development of teamwork and learn "GAMESMANSHIP" and "CREATIVITY" - a crucial 21st century skills.</li>
                         <li>Exceptional hands-on learning experience with designing, building and complement your engineering curriculum.</li>

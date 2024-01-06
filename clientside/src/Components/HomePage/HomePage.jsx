@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import HeroPage from '../heropage/HeroPage';
 // import Spons from '../spons/Spons';
 import Footer from '../footer/footer';
@@ -9,20 +9,20 @@ import Unlock from '../unstop/Unlock';
 
 export default function HomePage() {
 
-  const [ scroll, setScroll ] = useState(0);
+    // const [ scroll, setScroll ] = useState(0);
 
-  useEffect(() => {
-    const progressScrollHandler = () => {
-      const totalScroll = document.documentElement.scrollTop;
-      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scroll = totalScroll / windowHeight * 100;
-      setScroll(scroll);
-    }
+    // useEffect(() => {
+    //   const progressScrollHandler = () => {
+    //     const totalScroll = document.documentElement.scrollTop;
+    //     const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    //     const scroll = totalScroll / windowHeight * 100;
+    //     setScroll(scroll);
+    //   }
 
-    window.addEventListener("scroll", progressScrollHandler);
+    //   window.addEventListener("scroll", progressScrollHandler);
 
-    return () => window.removeEventListener("scroll", progressScrollHandler);
-  });
+    //   return () => window.removeEventListener("scroll", progressScrollHandler);
+    // });
 
   return (
     <div>

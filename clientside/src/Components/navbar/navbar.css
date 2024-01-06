@@ -25,6 +25,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-family: 'Gugi', sans-serif;
+    font-size: 1.2rem;
 }
 
 nav ul li:last-of-type {
@@ -37,6 +38,7 @@ nav button {
     background-color: #262626;
     border: none;
     color: #b1b1b1;
+    font-size: 1rem;
     font-family: 'JetBrains Mono', monospace;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
 }
@@ -124,17 +126,17 @@ nav div {
         color: white;
         width: 50px;
         height: 30px;
-        font-size: 30px;
+        /* font-size: 30px; */
     }
     nav ul li:last-of-type {
         display: inline;
     }
     nav ul li a {
-        font-size: 30px;
+        /* font-size: 30px; */
     }
     nav div button {
         width: 90%;
         height: 50px;
-        font-size: 30px;
+        /* font-size: 30px; */
     }
 }

@@ -36,7 +36,7 @@
 
 .notihead {
     width: 90%;
-    font-size: 50px;
+    font-size: 2rem;
     margin: 0;
     font-family: 'Wallpoet';
 }
@@ -53,13 +53,13 @@
 }
 
 .message p:first-of-type {
-    font-size: 30px;
+    font-size: 1.2rem;
     margin-bottom: 0;
     font-family: 'Wallpoet';
 }
 
 .message p:last-of-type {
-    font-size: 13px;
+    font-size: 1rem;
     font-family: 'JetBrains Mono';
     color: #bababa;
 }
@@ -69,11 +69,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-size: 0.8rem;
 }
 
 .mesBut button {
     width: 150px;
     height: 30px;
+    font-size: 1rem;
     background-color: #95c5f4;
     border: none;
     clip-path: polygon(0 2%, 85% 1%, 100% 100%, 15% 100%);
