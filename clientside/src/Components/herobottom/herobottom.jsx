@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./herobottom.css";
 import useSound from 'use-sound';
 import sound from "../../sounds/click.mp3";
 import Timer from '../timer/timer';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Herobottom() {
 
   const [play] = useSound(sound);
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className='herobottom'>
+    <div data-aos="fade-up" data-aos-delay="300" className='herobottom'>
         <div className='rnxginfo'>
             <p>RNXG</p>
             <p>Members of the RNXG, regardless of their fields,

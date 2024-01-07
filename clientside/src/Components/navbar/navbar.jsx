@@ -3,9 +3,15 @@ import './navbar.css';
 import { HiMenuAlt1 } from "react-icons/hi";
 import useSound from 'use-sound';
 import sound from "../../sounds/click.mp3";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
  
 export default function Navbar() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const [play] = useSound(sound);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -43,7 +49,7 @@ export default function Navbar() {
         <img src="https://res.cloudinary.com/doiocpcni/image/upload/v1704270448/Rmageddon2K24/logo_i8trpb.png" alt='logo' />
         <button onClick={() => {handleClick();play();}}><HiMenuAlt1 /></button>
       </div>
-      <nav id='navbar'>
+      <nav data-aos="fade-down" id='navbar'>
         <ul>
           <li><a href='#games'>Games</a></li>
           <li><a href='#organisers'>Organiser</a></li>

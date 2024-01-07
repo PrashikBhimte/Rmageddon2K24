@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./heroinfo.css";
 import useSound from "use-sound";
 import sound from "../../sounds/click.mp3";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Heroinfo() {
   const [play] = useSound(sound);
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="heroinfo">
+    <div data-aos="zoom-in" data-aos-delay="100" className="heroinfo">
       <div className="hero-info-div">
         <p id="heading">RMAGEDDON-2024</p>
         <p id="tagline">Become an Early Adapter</p>
