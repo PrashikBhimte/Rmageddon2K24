@@ -45,7 +45,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='mobile'>
+      <div data-aos="fade-down" className='mobile'>
         <img src="https://res.cloudinary.com/doiocpcni/image/upload/v1704270448/Rmageddon2K24/logo_i8trpb.png" alt='logo' />
         <button onClick={() => {handleClick();play();}}><HiMenuAlt1 /></button>
       </div>
