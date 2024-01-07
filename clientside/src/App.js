@@ -8,7 +8,7 @@ import Come from './Components/comeing-soon/come';
 
 function App() {
 
-  const [ loading, setLoading  ] = useState(true);
+  const [ loading, setLoading  ] = useState(true);  
 
   useEffect(() => {
     setTimeout(() => {

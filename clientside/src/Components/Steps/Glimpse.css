@@ -15,8 +15,6 @@
 
 .blackdiv-inner {
     width: 100%;
-    /* filter: blur(3px); */
-    transform: rotateY(10deg);
     height: 70%;
     display: flex;
     justify-content: space-evenly;
@@ -26,16 +24,25 @@
 .blackdiv-inner div {
     width: 30%;
     height: 100%;
-    /* filter: blur(3px); */
-    transform: rotateY(-10deg);
     max-width: 500px;
+}
+
+.images-side {
+    perspective: 200px;
 }
 
 .images-side img {
     width: 100%;
     height: 90%;
     filter: blur(3px);
-    perspective: 200px;
+}
+
+.images-side:first-of-type img {
+    transform: rotateY(10deg);
+}
+
+.images-side:last-of-type img {
+    transform: rotateY(-10deg);
 }
 
 .images-main img {
