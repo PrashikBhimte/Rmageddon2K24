@@ -15,7 +15,7 @@ export default function Herobottom() {
   }, []);
 
   return (
-    <div data-aos="fade-up" data-aos-delay="300" className='herobottom'>
+    <div data-aos="fade-up" data-aos-delay="500" className='herobottom'>
         <div className='rnxginfo'>
             <p>RNXG</p>
             <p>Members of the RNXG, regardless of their fields,

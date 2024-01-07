@@ -13,7 +13,7 @@ export default function Heroinfo() {
   }, []);
 
   return (
-    <div data-aos="zoom-in" data-aos-delay="100" className="heroinfo">
+    <div data-aos="zoom-in" data-aos-delay="300" className="heroinfo">
       <div className="hero-info-div">
         <p id="heading">RMAGEDDON-2024</p>
         <p id="tagline">Become an Early Adapter</p>
