@@ -4,7 +4,7 @@ import HomePage from './Components/HomePage/HomePage';
 import { useEffect, useState } from 'react';
 import Loader from './Components/loader/loader';
 import Come from './Components/comeing-soon/come';
-import Soonpage from './Components/mainCome/Soonpage';
+// import Soonpage from './Components/mainCome/Soonpage';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/' element={ shouldRenderMainPage? <Soonpage /> : loading ? <Loader /> : <HomePage /> }></Route>
+      <Route path='/' element={ shouldRenderMainPage? <HomePage /> : loading ? <Loader /> : <HomePage /> }></Route>
       <Route path='/registre' element={ loading ? <Loader /> : <Come /> }></Route>
     </Routes>
   );
