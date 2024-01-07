@@ -25,7 +25,7 @@ function Glimpse(){
             setcurrentImage((i)=>(i+1)%Images.length)
             setnextImage((j)=>(j+1)%Images.length)
             setprevImage((k)=>(k+1)%Images.length)
-        },5000);
+        },2000);
         return ()=>clearInterval(time);
     },[currentImage])
 
@@ -58,7 +58,6 @@ const Images = [
   { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390565/Rmageddon2K24/DSC_1043_pxt0eu.jpg" },
   { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390591/Rmageddon2K24/IMG_1797_e5x1hn.jpg" },
   { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390615/Rmageddon2K24/Screenshot_81_cmflzo.png" },
-  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390633/Rmageddon2K24/Screenshot_83_j881dj.png" },
-  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390678/Rmageddon2K24/Screenshot_89_otipag.png" }
+  { url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704390633/Rmageddon2K24/Screenshot_83_j881dj.png" }
 ];
 export default Glimpse;

@@ -29,6 +29,7 @@
 
 .unlock-content {
     width: 80%;
+    padding: 0;
 }
 
 .unlock-content li {
@@ -94,10 +95,15 @@
         max-width: 500px;
     }
     .award {
+        height: auto;
         flex-direction: column;
     }
     .cash-prize, .certificate {
-        margin: 50px 0px;
+        /* margin: 50px 0px; */
+        margin-top: 50px;
+    }
+    .certificate {
+        margin-bottom: 50px;
     }
 }
 

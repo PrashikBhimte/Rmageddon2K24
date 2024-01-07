@@ -10,14 +10,14 @@ import Come from './Components/comeing-soon/come';
 function App() {
 
   const [ loading, setLoading  ] = useState(true);  
-  const targetDate = new Date(2024, 0, 8);
+  // const targetDate = new Date(2024, 0, 8);
 
-  const [shouldRenderMainPage, setShouldRenderMainPage] = useState(false);
+  // const [shouldRenderMainPage, setShouldRenderMainPage] = useState(false);
 
-  useEffect(() => {
-    const currentDate = new Date();
-    setShouldRenderMainPage(currentDate <= targetDate);
-  }, []);
+  // useEffect(() => {
+  //   const currentDate = new Date();
+  //   setShouldRenderMainPage(currentDate <= targetDate);
+  // }, []);
 
   useEffect(() => { 
     setTimeout(() => {
@@ -25,9 +25,11 @@ function App() {
     }, 1500);
   }, []);
 
+  // shouldRenderMainPage? <HomePage /> :
+
   return (
     <Routes>
-      <Route path='/' element={ shouldRenderMainPage? <HomePage /> : loading ? <Loader /> : <HomePage /> }></Route>
+      <Route path='/' element={ loading ? <Loader /> : <HomePage /> }></Route>
       <Route path='/registre' element={ loading ? <Loader /> : <Come /> }></Route>
     </Routes>
   );

@@ -1,12 +1,15 @@
 .blackdiv {
     width: 100%;
     height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .blackdiv-heading1 {
     width: 100%;
-    margin-left: -10%;
-    text-align: left;
+    text-align: center;
     font-size: 2rem;
     font-family: 'Wallpoet';
     margin-top: 25px;
@@ -37,13 +40,13 @@
     filter: blur(3px);
 }
 
-.images-side:first-of-type img {
+/* .images-side:first-of-type img {
     transform: rotateY(10deg);
 }
 
 .images-side:last-of-type img {
     transform: rotateY(-10deg);
-}
+} */
 
 .images-main img {
     width: 100%;
@@ -52,7 +55,7 @@
 
 @media (max-width : 1200px) {
     .blackdiv-inner {
-        width: 100%;
+        width: 90%;
         height: 95vh;
         flex-direction: column;
         align-items: center;
