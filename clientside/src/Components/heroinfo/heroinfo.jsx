@@ -16,7 +16,7 @@ export default function Heroinfo() {
     <div data-aos="zoom-in" data-aos-delay="300" className="heroinfo">
       <div className="hero-info-div">
         <p id="heading">RMAGEDDON-2024</p>
-        <p id="tagline">Become an Early Adapter</p>
+        <p id="tagline">Orbiting Innovation: Where Sci-Fi Meets Technical Minds</p>
         <p id="information">
           Unleash the full potential of your robotic creations and showcase your
           skills to the elite in the field of robotics. Compete for recognition

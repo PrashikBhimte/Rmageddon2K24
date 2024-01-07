@@ -70,6 +70,7 @@
 .games-content{
   position: relative;
   width: 80%;
+  height: 200px;
   font-family: 'JetBrains Mono';
   font-size: 0.8rem;
   color: #BABABA;

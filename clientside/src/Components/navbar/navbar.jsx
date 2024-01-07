@@ -5,6 +5,7 @@ import useSound from 'use-sound';
 import sound from "../../sounds/click.mp3";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
  
 export default function Navbar() {
@@ -54,7 +55,7 @@ export default function Navbar() {
           <li><a href='#games'>Games</a></li>
           <li><a href='#organisers'>Organiser</a></li>
           <li><a href='#footer'>Contact Us</a></li>
-          <li><a href='#abc' onClick={handleClose}>Close</a></li>
+          <li><a href='#abc' onClick={handleClose}><AiOutlineCloseCircle /></a></li>
         </ul>
         <div>
           <a href='registre'><button onClick={play}>Register</button></a>
