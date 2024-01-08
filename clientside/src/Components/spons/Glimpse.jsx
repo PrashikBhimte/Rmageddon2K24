@@ -8,13 +8,13 @@ function Glimpse(){
     const [prevImage,setprevImage]=useState(2);
     const [style,setstyle]=useState(1);
     const [brightness,setbrightness]=useState(130);
-    
+    const [transform,setTransform]=useState(0);
     useEffect(()=>{
         const styletime=setInterval(()=>{
         
-                setstyle((i)=>i===1?1.07:1);
+                setstyle((i)=>i===1?1.07:1)
                 setbrightness((b)=>b===130?150:130)
-            
+ 
         },1000)
         return ()=>clearInterval(styletime)
     },[style])
@@ -23,8 +23,12 @@ function Glimpse(){
     useEffect(()=>{
         const time=setInterval(()=>{
             setcurrentImage((i)=>(i+1)%Images.length)
+            setTransform((t)=>t===0?0.5:0)
             setnextImage((j)=>(j+1)%Images.length)
+            setTransform((t)=>t===0?0.5:0)
             setprevImage((k)=>(k+1)%Images.length)
+            setTransform((t)=>t===0?0.5:0)
+            
         },2000);
         return ()=>clearInterval(time);
     },[currentImage])
@@ -33,13 +37,13 @@ function Glimpse(){
     <div className="blackdiv">
       <p className="blackdiv-heading1">Last year Glimpses...</p>
       <div className="blackdiv-inner">
-        <div className="images-side">
+        <div className="images-side" style={{transform:`scale(${style})`,transition:`transform(${transform})`}}>
           <img alt="images" src={Images[currentImage].url} className="image" />
         </div>
-        <div className="images-main" style={{transform:`scale(${style})`, filter:`brightness(${brightness}%)`}} >
+        <div className="images-main" style={{transform:`scale(${style})`, filter:`brightness(${brightness}%)`,transition:'transform 0.5s'}} >
           <img alt="images" src={Images[nextImage].url} className="image1" />
         </div>
-        <div className="images-side">
+        <div className="images-side" style={{transform:`scale(${style})`,transition:'transform 0.5s'}}> 
           <img alt="images" src={Images[prevImage].url} className="image2" />
         </div>
       </div>
