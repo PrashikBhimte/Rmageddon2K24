@@ -31,12 +31,25 @@
 
 .images-side {
     perspective: 200px;
+    
 }
 
 .images-side img {
-    width: 100%;
+    width: 90%;
     height: 90%;
     filter: blur(3px);
+}
+.image{
+    transform: rotateY(-10deg);
+}
+.image2{
+    transform:rotateY(10deg)
+}
+.images-side .image{
+    margin-left: 2px;
+}
+.images-side .image2{
+    margin-left: 50px;
 }
 
 /* .images-side:first-of-type img {
@@ -69,6 +82,12 @@
     .blackdiv-heading1 {
         width: 100%;
         text-align: center;
+    }
+    .image{
+        transform: rotateX(-10deg);
+    }
+    .image2{
+        transform:rotateX(10deg)
     }
 }
 
