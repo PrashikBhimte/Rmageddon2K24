@@ -1,6 +1,6 @@
 import { React } from "react";
 import "./Info.css";
-import Glimpse from "./Glimpse";
+// import Glimpse from "./Glimpse";
 
 function Info() {
   return (
@@ -46,7 +46,7 @@ function Info() {
               </li>
             </ul>
           </div>
-          <Glimpse />
+          {/* <Glimpse /> */}
         </div>
       </div>
     </div>

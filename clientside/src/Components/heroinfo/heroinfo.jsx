@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
 import "./heroinfo.css";
-import useSound from "use-sound";
-import sound from "../../sounds/click.mp3";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Heroinfo() {
-  const [play] = useSound(sound);
 
   useEffect(() => {
     AOS.init();
@@ -24,7 +21,7 @@ export default function Heroinfo() {
           event of the year!
         </p>
         <a href="#unlock">
-          <button onClick={play}>Explore Now</button>
+          <button>Explore Now</button>
         </a>
       </div>
       <div className="logo-div">

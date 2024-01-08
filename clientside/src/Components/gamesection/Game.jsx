@@ -2,11 +2,8 @@ import { React, useState } from "react";
 import "./Game.css";
 import { GrFormNext } from "react-icons/gr";
 import { GrFormPrevious } from "react-icons/gr";
-import useSound from "use-sound";
-import sound from "../../sounds/click.mp3";
 
 function Game({ slides }) {
-  const [play] = useSound(sound);
 
   // let count=0;
   const [currentslide, setcurrentslide] = useState(0);
@@ -61,7 +58,6 @@ function Game({ slides }) {
           <button
             className="btn"
             onClick={() => {
-              play();
               prevslide();
             }}
           >
@@ -75,7 +71,6 @@ function Game({ slides }) {
           <button
             className="btn"
             onClick={() => {
-              play();
               nextslide();
             }}
           >
@@ -93,16 +88,12 @@ function Game({ slides }) {
             {/* <a href={slides[link].link}> */}
             <a href="registre">
               <button
-                onClick={() => {
-                  play();
-                }}
               >
                 Register
               </button>
             </a>
             <button
               onClick={() => {
-                play();
                 openMessage();
                 // download();
               }}
@@ -114,7 +105,6 @@ function Game({ slides }) {
             <p>Rule Book will be avaliable soon...</p>
             <button
               onClick={() => {
-                play();
                 closeMessage();
               }}
             >

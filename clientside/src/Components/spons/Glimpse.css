@@ -4,12 +4,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .blackdiv-heading1 {
-    width: 40%;
-    text-align: center;
+    width: 90%;
     font-size: 2rem;
     font-family: 'Wallpoet';
     margin-top: 25px;
@@ -17,7 +16,7 @@
 }
 
 .blackdiv-inner {
-    width: 100%;
+    width: 80%;
     height: 70%;
     display: flex;
     justify-content: space-evenly;

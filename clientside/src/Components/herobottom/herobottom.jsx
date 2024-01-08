@@ -1,14 +1,10 @@
 import React, { useEffect } from 'react';
 import "./herobottom.css";
-import useSound from 'use-sound';
-import sound from "../../sounds/click.mp3";
 import Timer from '../timer/timer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Herobottom() {
-
-  const [play] = useSound(sound);
 
   useEffect(() => {
     AOS.init();
@@ -25,7 +21,7 @@ export default function Herobottom() {
             various issue statements and developing the best 
             solutions for them.
             </p>
-            <a href='https://www.rnxg.co.in/'><button onClick={play}>Explore</button></a>
+            <a href='https://www.rnxg.co.in/'><button>Explore</button></a>
         </div>
         <div className='clock' >
             <p>Days left</p>
