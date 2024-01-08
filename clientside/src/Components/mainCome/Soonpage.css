@@ -14,7 +14,7 @@
     z-index: -999;
 }
 .come-page h1{
-    font-family: 'Wallpoet';
+    font-family: myFont, 'Wallpoet';
     font-size: 50px;
     margin: 0;
     padding: 0;

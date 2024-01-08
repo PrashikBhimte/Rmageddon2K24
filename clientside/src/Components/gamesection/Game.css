@@ -18,7 +18,7 @@
 .gameheading{
   width: 90%;
   font-size: 2rem;
-  font-family: 'Wallpoet';
+  font-family: myFont, 'Wallpoet';
   color: white;
 }
 
@@ -65,7 +65,7 @@
 
 .games-heading{
   width: 100%;
-  font-family: 'Wallpoet';
+  font-family: myFont, 'Wallpoet';
   font-size: 1.3rem;
   color: #99c7f4;
 }

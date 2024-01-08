@@ -25,7 +25,7 @@ function Card(){
         {
             key:3,
             // url:"https://www.automate.org/images/ogImages/RIA-blog-pick-and-place-robots.jpeg",
-            url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704441458/Rmageddon2K24/picknplace_ynkyru.png",
+            url: "https://res.cloudinary.com/doiocpcni/image/upload/v1704739675/Rmageddon2K24/img_0775_IwX8agFeIU_uoyb3a.avif",
             title:"Blitz Place",
             content:"Blitz Place is a dynamic pick-and-place robotics competition wherein robots showcase their precision and agility in picking up and placing objects with fineness. It challenges teams to build optimal bot which can navigate the arena, strategically grabbing and relocating items with delicacy.",
             link: "#game3",

@@ -23,7 +23,7 @@
 
 .rinfo p:first-of-type {
     font-size: 2rem;
-    font-family: 'wallpoet';
+    font-family: myFont, 'wallpoet';
 }
 
 #Content{
@@ -45,7 +45,7 @@
 .sponinfo p {
     width: 90%;
     font-size: 2rem;
-    font-family: Wallpoet;
+    font-family: myFont, 'Wallpoet';
 }
 
 .Bada_Cards{

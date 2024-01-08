@@ -31,7 +31,7 @@ function Glimpse(){
 
   return (
     <div className="blackdiv">
-      <p className="blackdiv-heading1">Glance of Rmageddon23...</p>
+      <p className="blackdiv-heading1">Last year Glimpses...</p>
       <div className="blackdiv-inner">
         <div className="images-side">
           <img alt="images" src={Images[currentImage].url} className="image" />

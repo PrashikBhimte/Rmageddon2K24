@@ -16,7 +16,7 @@
 }
 
 .heading{
-    font-family: 'Wallpoet';
+    font-family: myFont, 'Wallpoet';
     color: white;
     font-size: 2rem;
     width: 90%;

@@ -32,7 +32,7 @@ footer {
     color: white;
     text-decoration: none;
     font-size: 2rem;
-    font-family: 'Wallpoet';
+    font-family: myFont, 'Wallpoet';
 }
 
 .footer-col p {

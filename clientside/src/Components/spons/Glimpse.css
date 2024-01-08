@@ -10,7 +10,7 @@
 .blackdiv-heading1 {
     width: 90%;
     font-size: 2rem;
-    font-family: 'Wallpoet';
+    font-family: myFont, 'Wallpoet';
     margin-top: 25px;
     margin-bottom: 20px;
 }

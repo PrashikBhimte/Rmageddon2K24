@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face {
+    font-family: myFont ;
+    src: url("./fonts/fonts.ttf");
+}
 
 html {
     scroll-behavior: smooth;

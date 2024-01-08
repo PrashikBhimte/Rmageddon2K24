@@ -25,12 +25,12 @@
     margin: 0;
     padding: 0;
     font-size: 4rem;
-    font-family: 'Wallpoet', sans-serif;
+    font-family: myFont, 'Wallpoet', sans-serif;
     text-align: center;
 }
 
 .heroinfo p {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Orbitron', 'JetBrains Mono', monospace;
 }
 
 .heroinfo #tagline {
