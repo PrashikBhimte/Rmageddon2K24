@@ -50,7 +50,7 @@ export default function Navbar() {
       <nav data-aos="fade-down" id='navbar'>
         <ul>
           <li><a href='#games'>Games</a></li>
-          <li><a href='#organisers'>Organiser</a></li>
+          <li><a href='#organisers'>Sponsers</a></li>
           <li><a href='#footer'>Contact Us</a></li>
           <li><a href='#abc' onClick={handleClose}><AiOutlineCloseCircle /></a></li>
         </ul>

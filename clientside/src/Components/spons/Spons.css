@@ -17,28 +17,34 @@
     align-items: center;
 }
 
-.rinfo {
-    padding: 50px;
+.spon-info-div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.rinfo p:first-of-type {
+.spon-info-div p:first-of-type {
+    width: 63%;
     font-size: 2rem;
-    font-family: myFont, 'wallpoet';
+    font-family: myFont;
 }
 
-#Content{
-    width: 60%;
+.spon-info-div p:last-of-type {
+    width: 80%;
     font-size: 0.8rem;
     color: #bababa;
+    text-align: justify;
     font-family: 'JetBrains Mono', monospace;
 }
 
 .sponinfo {
     width: 90%;
-    height: auto;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -46,65 +52,10 @@
     width: 90%;
     font-size: 2rem;
     font-family: myFont, 'Wallpoet';
-}
-
-.Bada_Cards{
-    width : 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.Chota_card{    
-    padding: 10px;
-    display: flex;
-    height: 100px;
-    width: 130px;
-    flex-wrap: nowrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.Child_Box{
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,22,36,1) 35%, rgba(15,74,161,0.6111694677871149) 100%); */
-    /* clip-path: polygon(0 1%, 74% 0, 100% 29%, 100% 100%, 25% 100%, 0 66%); */
-    width: 130px;
-    height: 80px;
-    /* margin-bottom: 20px;  */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 0px;
-}
-
-.Child_Box img {
-    width: 100%;
-}
-
-.Bada_Cards h6{
-    margin: 25px 0px;
-    text-align: center;
-    padding: 0px;
-    font-size: 1rem;
-    color: #bababa;
-    font-family: 'JetBrains Mono', monospace;
-}   
-
-@media ( max-width : 900px ) {
-    #Content {
-        width: 90%;
-    }
+    margin: 0;
 }
 
 @media (max-width: 1200px) {
-    #background2 {
-        display: none;
-    }
     .Main {
         height: auto;
     }
@@ -114,17 +65,17 @@
         height: auto ;
         background-color: #111111;
     }
-    .rinfo p:first-of-type {
+    .spon-info-div {
+        width: 100%;
+    }
+    .spon-info-div p:first-of-type {
+        width: 90%;
         text-align: center;
+    }
+    .spon-info-div p:last-of-type {
+        max-width: 500px;
     }
     .sponinfo p {
         width: auto;
-    }
-    #Content {
-        width: 100%;
-        max-width: 500px;
-    }
-    .Chota_card {
-        height: auto;
     }
 }
